@@ -28,56 +28,48 @@ Shader "TextMeshPro/Mobile/Distance Field (Surface)" {
 		_VertexOffsetX ("Vertex OffsetX", Float) = 0
 		_VertexOffsetY ("Vertex OffsetY", Float) = 0
 	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
+	// Reconstructed distance-field SURFACE body (dummy pass-through in the export dumped
+	// the raw SDF atlas -> solid black box on world-space text: boards, signs, chalk).
+	// Lit surface shader: atlas alpha holds the signed distance (0.5 = glyph edge) -> AA
+	// coverage; face lit by the scene via Lambert. Mobile variant: no outline/bevel.
+	SubShader {
+		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
 		LOD 200
+		Cull Off
 
-		Pass
-		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+		CGPROGRAM
+		#pragma surface surf Lambert alpha:fade vertex:vert
+		#pragma target 3.0
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+		// _MainTex_ST is auto-declared by the surface-shader compiler because Input
+		// uses uv_MainTex; declaring it here too is a redefinition error.
+		sampler2D _MainTex;
+		fixed4 _FaceColor;
+		float _FaceDilate;
 
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
+		struct Input {
+			float2 uv_MainTex;
+			fixed4 vertColor;
+		};
 
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
-
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
-
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
-
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
-
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
-			}
-
-			ENDHLSL
+		void vert(inout appdata_full v, out Input o) {
+			UNITY_INITIALIZE_OUTPUT(Input, o);
+			o.vertColor = v.color;
 		}
+
+		void surf(Input IN, inout SurfaceOutput o) {
+			// Alpha8 SDF atlas: distance stored in .a, 0.5 == glyph edge.
+			float dist = tex2D(_MainTex, IN.uv_MainTex).a;
+			float aa = max(fwidth(dist), 0.0001);
+			float faceThreshold = 0.5 - _FaceDilate * 0.5;
+			float faceCoverage = smoothstep(faceThreshold - aa, faceThreshold + aa, dist);
+
+			fixed4 face = IN.vertColor * _FaceColor;
+			o.Albedo = face.rgb;
+			o.Alpha = face.a * faceCoverage;
+		}
+		ENDCG
 	}
+	Fallback "TextMeshPro/Mobile/Distance Field"
 	//CustomEditor "TMPro.EditorUtilities.TMP_SDFShaderGUI"
 }
