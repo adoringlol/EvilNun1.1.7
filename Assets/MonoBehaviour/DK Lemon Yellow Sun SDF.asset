@@ -1,0 +1,827 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -667331979, guid: fd47d838221fb035094bb0f3cfcd73fa, type: 3}
+  m_Name: DK Lemon Yellow Sun SDF
+  m_EditorClassIdentifier:
+  hashCode: -1605991209
+  material: {fileID: 2100000, guid: cfab258187826514fb9042f82b7b1c74, type: 2}
+  materialHashCode: -1215942148
+  fontAssetType: 1
+  m_fontInfo:
+    Name: DK Lemon Yellow Sun
+    PointSize: 33
+    Scale: 1
+    CharacterCount: 81
+    LineHeight: 28.0625
+    Baseline: 0
+    Ascender: 27.5
+    CapHeight: 26.687498
+    Descender: -0.625
+    CenterLine: 0
+    SuperscriptOffset: 27.5
+    SubscriptOffset: -3.3000002
+    SubSize: 0.5
+    Underline: -3.3000002
+    UnderlineThickness: 1.6500001
+    strikethrough: 9.772727
+    strikethroughThickness: 1.6500001
+    TabWidth: 98.75
+    Padding: 5
+    AtlasWidth: 256
+    AtlasHeight: 256
+  atlas: {fileID: 2800000, guid: 0a5707c733f8ab343b9c13eb36c40d8b, type: 3}
+  m_glyphInfoList:
+  - id: 32
+    x: 6
+    y: 261
+    width: 9.875
+    height: 28.125
+    xOffset: 0
+    yOffset: 27.5
+    xAdvance: 9.875
+    scale: 1
+  - id: 33
+    x: 124
+    y: 109
+    width: 3.4999998
+    height: 26.687498
+    xOffset: 1.6249999
+    yOffset: 26.749998
+    xAdvance: 6.75
+    scale: 1
+  - id: 34
+    x: 98
+    y: 7
+    width: 5.8124995
+    height: 12.749999
+    xOffset: 1.6249999
+    yOffset: 26.437498
+    xAdvance: 9.125
+    scale: 1
+  - id: 36
+    x: 6
+    y: 216
+    width: 8.249999
+    height: 33.749996
+    xOffset: 1.6249999
+    yOffset: 30.437498
+    xAdvance: 11.0625
+    scale: 1
+  - id: 39
+    x: 115
+    y: 7
+    width: 2.0624998
+    height: 12.749999
+    xOffset: 1.6249999
+    yOffset: 26.437498
+    xAdvance: 5.3125
+    scale: 1
+  - id: 40
+    x: 111
+    y: 31
+    width: 6.9999995
+    height: 26.749998
+    xOffset: 1.6249999
+    yOffset: 26.937498
+    xAdvance: 10.3125
+    scale: 1
+  - id: 41
+    x: 113
+    y: 71
+    width: 6.9999995
+    height: 26.749998
+    xOffset: 1.6249999
+    yOffset: 26.937498
+    xAdvance: 10.3125
+    scale: 1
+  - id: 44
+    x: 155
+    y: 18
+    width: 2.0624998
+    height: 4.5624995
+    xOffset: 1.6249999
+    yOffset: 1.9374999
+    xAdvance: 5.375
+    scale: 1
+  - id: 45
+    x: 169
+    y: 22
+    width: 15.562499
+    height: 2.0624998
+    xOffset: 1.6249999
+    yOffset: 13.499999
+    xAdvance: 18.8125
+    scale: 1
+  - id: 46
+    x: 195
+    y: 8
+    width: 2.6249998
+    height: 2.4374998
+    xOffset: 1.6249999
+    yOffset: 2.8749998
+    xAdvance: 5.9375
+    scale: 1
+  - id: 47
+    x: 72
+    y: 222
+    width: 8.812499
+    height: 27.312498
+    xOffset: 1.6249999
+    yOffset: 27.187498
+    xAdvance: 12.125
+    scale: 1
+  - id: 48
+    x: 145
+    y: 73
+    width: 10.499999
+    height: 25.874998
+    xOffset: 1.6249999
+    yOffset: 26.812498
+    xAdvance: 13.75
+    scale: 1
+  - id: 49
+    x: 129
+    y: 33
+    width: 2.2499998
+    height: 26.874998
+    xOffset: 1.6249999
+    yOffset: 26.562498
+    xAdvance: 5.5625
+    scale: 1
+  - id: 50
+    x: 188
+    y: 224
+    width: 9.062499
+    height: 25.249998
+    xOffset: 1.6249999
+    yOffset: 25.937498
+    xAdvance: 11.8125
+    scale: 1
+  - id: 51
+    x: 164
+    y: 114
+    width: 8.812499
+    height: 25.937498
+    xOffset: 1.6249999
+    yOffset: 26.562498
+    xAdvance: 12.0625
+    scale: 1
+  - id: 52
+    x: 31
+    y: 182
+    width: 10.562499
+    height: 27.312498
+    xOffset: 1.6249999
+    yOffset: 27.187498
+    xAdvance: 13.8125
+    scale: 1
+  - id: 53
+    x: 82
+    y: 107
+    width: 10.937499
+    height: 26.374998
+    xOffset: 1.6249999
+    yOffset: 27.437498
+    xAdvance: 13.0625
+    scale: 1
+  - id: 54
+    x: 116
+    y: 223
+    width: 9.437499
+    height: 26.874998
+    xOffset: 1.6249999
+    yOffset: 26.874998
+    xAdvance: 12.6875
+    scale: 1
+  - id: 55
+    x: 104
+    y: 109
+    width: 8.062499
+    height: 26.874998
+    xOffset: 1.6249999
+    yOffset: 26.124998
+    xAdvance: 11.375
+    scale: 1
+  - id: 56
+    x: 120
+    y: 147
+    width: 8.937499
+    height: 26.249998
+    xOffset: 1.6249999
+    yOffset: 26.374998
+    xAdvance: 12.25
+    scale: 1
+  - id: 57
+    x: 99
+    y: 147
+    width: 9.624999
+    height: 26.499998
+    xOffset: 1.6249999
+    yOffset: 26.812498
+    xAdvance: 12.875
+    scale: 1
+  - id: 58
+    x: 209
+    y: 47
+    width: 2.6249998
+    height: 19.312498
+    xOffset: 1.6249999
+    yOffset: 19.687498
+    xAdvance: 5.9375
+    scale: 1
+  - id: 59
+    x: 225
+    y: 85
+    width: 2.6249998
+    height: 22.374998
+    xOffset: 1.6249999
+    yOffset: 19.687498
+    xAdvance: 5.9375
+    scale: 1
+  - id: 61
+    x: 129
+    y: 15
+    width: 14.499999
+    height: 6.8124995
+    xOffset: 1.6249999
+    yOffset: 15.562499
+    xAdvance: 17.75
+    scale: 1
+  - id: 63
+    x: 167
+    y: 77
+    width: 8.562499
+    height: 25.874998
+    xOffset: 1.6249999
+    yOffset: 25.687498
+    xAdvance: 11.8125
+    scale: 1
+  - id: 64
+    x: 54
+    y: 105
+    width: 16.749998
+    height: 26.937498
+    xOffset: 1.4374999
+    yOffset: 26.562498
+    xAdvance: 19.875
+    scale: 1
+  - id: 65
+    x: 6
+    y: 136
+    width: 9.312499
+    height: 28.499998
+    xOffset: 1.6249999
+    yOffset: 27.749998
+    xAdvance: 12.5625
+    scale: 1
+  - id: 66
+    x: 50
+    y: 222
+    width: 10.812499
+    height: 27.187498
+    xOffset: 1.6249999
+    yOffset: 27.312498
+    xAdvance: 14.0625
+    scale: 1
+  - id: 67
+    x: 237
+    y: 226
+    width: 11.999999
+    height: 23.999998
+    xOffset: 0.43749997
+    yOffset: 25.437498
+    xAdvance: 14.125
+    scale: 1
+  - id: 68
+    x: 188
+    y: 151
+    width: 9.062499
+    height: 24.749998
+    xOffset: 1.6249999
+    yOffset: 26.374998
+    xAdvance: 12.3125
+    scale: 1
+  - id: 69
+    x: 229
+    y: 15
+    width: 7.9374995
+    height: 23.687498
+    xOffset: 1.6249999
+    yOffset: 25.812498
+    xAdvance: 10.5
+    scale: 1
+  - id: 70
+    x: 243
+    y: 120
+    width: 6.2499995
+    height: 23.999998
+    xOffset: 1.6249999
+    yOffset: 27.187498
+    xAdvance: 9.5625
+    scale: 1
+  - id: 71
+    x: 237
+    y: 191
+    width: 11.062499
+    height: 23.937498
+    xOffset: 1.6249999
+    yOffset: 24.374998
+    xAdvance: 13.9375
+    scale: 1
+  - id: 72
+    x: 188
+    y: 187
+    width: 9.062499
+    height: 25.624998
+    xOffset: 1.6249999
+    yOffset: 26.687498
+    xAdvance: 12.3125
+    scale: 1
+  - id: 73
+    x: 243
+    y: 85
+    width: 3.4374998
+    height: 23.687498
+    xOffset: 1.5624999
+    yOffset: 25.874998
+    xAdvance: 6.6875
+    scale: 1
+  - id: 74
+    x: 184
+    y: 114
+    width: 7.6249995
+    height: 25.624998
+    xOffset: 1.6249999
+    yOffset: 26.874998
+    xAdvance: 11
+    scale: 1
+  - id: 75
+    x: 27
+    y: 137
+    width: 11.124999
+    height: 27.999998
+    xOffset: 1.5624999
+    yOffset: 27.812498
+    xAdvance: 13.9375
+    scale: 1
+  - id: 76
+    x: 187
+    y: 77
+    width: 7.7499995
+    height: 25.874998
+    xOffset: 1.6249999
+    yOffset: 26.749998
+    xAdvance: 11
+    scale: 1
+  - id: 77
+    x: 139
+    y: 110
+    width: 13.749999
+    height: 25.249998
+    xOffset: 1.6249999
+    yOffset: 26.062498
+    xAdvance: 17
+    scale: 1
+  - id: 78
+    x: 69
+    y: 67
+    width: 11.374999
+    height: 26.812498
+    xOffset: 1.6249999
+    yOffset: 25.874998
+    xAdvance: 14.625
+    scale: 1
+  - id: 79
+    x: 209
+    y: 225
+    width: 16.624998
+    height: 24.124998
+    xOffset: -1.1249999
+    yOffset: 25.812498
+    xAdvance: 14.875
+    scale: 1
+  - id: 80
+    x: 28
+    y: 19
+    width: 8.124999
+    height: 27.124998
+    xOffset: 1.6249999
+    yOffset: 26.874998
+    xAdvance: 11.4375
+    scale: 1
+  - id: 81
+    x: 26
+    y: 221
+    width: 12.874999
+    height: 28.249998
+    xOffset: 1.6249999
+    yOffset: 27.312498
+    xAdvance: 16.1875
+    scale: 1
+  - id: 82
+    x: 92
+    y: 69
+    width: 9.187499
+    height: 26.999998
+    xOffset: 1.6249999
+    yOffset: 27.749998
+    xAdvance: 12.5625
+    scale: 1
+  - id: 83
+    x: 225
+    y: 50
+    width: 8.812499
+    height: 23.249998
+    xOffset: 1.6249999
+    yOffset: 24.312498
+    xAdvance: 11.8125
+    scale: 1
+  - id: 84
+    x: 209
+    y: 154
+    width: 10.874999
+    height: 23.562498
+    xOffset: 1.0624999
+    yOffset: 26.187498
+    xAdvance: 13.3125
+    scale: 1
+  - id: 85
+    x: 141
+    y: 186
+    width: 11.374999
+    height: 25.062498
+    xOffset: 1.6249999
+    yOffset: 26.437498
+    xAdvance: 14.6875
+    scale: 1
+  - id: 86
+    x: 157
+    y: 224
+    width: 11.749999
+    height: 25.062498
+    xOffset: 1.6249999
+    yOffset: 25.812498
+    xAdvance: 15
+    scale: 1
+  - id: 87
+    x: 71
+    y: 145
+    width: 16.312498
+    height: 26.312498
+    xOffset: 1.6249999
+    yOffset: 26.499998
+    xAdvance: 19.625
+    scale: 1
+  - id: 88
+    x: 6
+    y: 58
+    width: 10.999999
+    height: 27.124998
+    xOffset: 1.6249999
+    yOffset: 27.062498
+    xAdvance: 14.25
+    scale: 1
+  - id: 89
+    x: 166
+    y: 36
+    width: 10.312499
+    height: 25.437498
+    xOffset: 0.99999994
+    yOffset: 25.687498
+    xAdvance: 12.9375
+    scale: 1
+  - id: 90
+    x: 222
+    y: 119
+    width: 9.999999
+    height: 23.437498
+    xOffset: 0.99999994
+    yOffset: 25.562498
+    xAdvance: 12.5625
+    scale: 1
+  - id: 92
+    x: 48
+    y: 19
+    width: 8.812499
+    height: 27.312498
+    xOffset: 1.6249999
+    yOffset: 27.187498
+    xAdvance: 12.125
+    scale: 1
+  - id: 95
+    x: 68
+    y: 7
+    width: 18.187498
+    height: 2.1249998
+    xOffset: 1.3124999
+    yOffset: 1.6249999
+    xAdvance: 21
+    scale: 1
+  - id: 97
+    x: 33
+    y: 98
+    width: 9.874999
+    height: 27.374998
+    xOffset: 1.6249999
+    yOffset: 28.124998
+    xAdvance: 13.1875
+    scale: 1
+  - id: 98
+    x: 6
+    y: 19
+    width: 10.499999
+    height: 27.624998
+    xOffset: 1.6249999
+    yOffset: 28.124998
+    xAdvance: 13.75
+    scale: 1
+  - id: 99
+    x: 209
+    y: 189
+    width: 10.937499
+    height: 24.562498
+    xOffset: 0.68749994
+    yOffset: 26.312498
+    xAdvance: 12.5625
+    scale: 1
+  - id: 100
+    x: 50
+    y: 143
+    width: 9.187499
+    height: 27.749998
+    xOffset: 1.6249999
+    yOffset: 27.499998
+    xAdvance: 12.25
+    scale: 1
+  - id: 101
+    x: 188
+    y: 41
+    width: 7.7499995
+    height: 24.937498
+    xOffset: 1.6249999
+    yOffset: 25.249998
+    xAdvance: 11
+    scale: 1
+  - id: 102
+    x: 206
+    y: 78
+    width: 7.2499995
+    height: 24.874998
+    xOffset: 1.6249999
+    yOffset: 26.624998
+    xAdvance: 10.5625
+    scale: 1
+  - id: 103
+    x: 231
+    y: 155
+    width: 10.562499
+    height: 24.874998
+    xOffset: 1.6249999
+    yOffset: 26.187498
+    xAdvance: 13.875
+    scale: 1
+  - id: 104
+    x: 53
+    y: 183
+    width: 9.062499
+    height: 27.687498
+    xOffset: 1.6249999
+    yOffset: 27.374998
+    xAdvance: 12.0625
+    scale: 1
+  - id: 105
+    x: 131
+    y: 71
+    width: 2.9374998
+    height: 26.124998
+    xOffset: 1.6249999
+    yOffset: 25.812498
+    xAdvance: 6.25
+    scale: 1
+  - id: 106
+    x: 203
+    y: 114
+    width: 7.8124995
+    height: 25.499998
+    xOffset: 1.6249999
+    yOffset: 25.437498
+    xAdvance: 11.0625
+    scale: 1
+  - id: 107
+    x: 28
+    y: 58
+    width: 10.249999
+    height: 27.999998
+    xOffset: 1.6249999
+    yOffset: 27.249998
+    xAdvance: 13.3125
+    scale: 1
+  - id: 108
+    x: 121
+    y: 185
+    width: 8.249999
+    height: 26.499998
+    xOffset: 1.6249999
+    yOffset: 26.874998
+    xAdvance: 11.5
+    scale: 1
+  - id: 109
+    x: 74
+    y: 184
+    width: 13.062499
+    height: 26.312498
+    xOffset: 1.6249999
+    yOffset: 26.812498
+    xAdvance: 16.375
+    scale: 1
+  - id: 110
+    x: 92
+    y: 223
+    width: 12.187499
+    height: 26.124998
+    xOffset: 1.6249999
+    yOffset: 26.437498
+    xAdvance: 15.5
+    scale: 1
+  - id: 111
+    x: 140
+    y: 148
+    width: 12.062499
+    height: 25.749998
+    xOffset: 1.6249999
+    yOffset: 26.687498
+    xAdvance: 14.4375
+    scale: 1
+  - id: 112
+    x: 92
+    y: 31
+    width: 7.5624995
+    height: 26.874998
+    xOffset: 1.6249999
+    yOffset: 26.249998
+    xAdvance: 10.8125
+    scale: 1
+  - id: 113
+    x: 6
+    y: 176
+    width: 13.062499
+    height: 28.312498
+    xOffset: 1.3749999
+    yOffset: 27.437498
+    xAdvance: 15.8125
+    scale: 1
+  - id: 114
+    x: 50
+    y: 59
+    width: 7.7499995
+    height: 27.124998
+    xOffset: 1.6249999
+    yOffset: 26.812498
+    xAdvance: 11
+    scale: 1
+  - id: 115
+    x: 137
+    y: 223
+    width: 8.249999
+    height: 26.624998
+    xOffset: 1.6249999
+    yOffset: 26.999998
+    xAdvance: 11.0625
+    scale: 1
+  - id: 116
+    x: 209
+    y: 12
+    width: 8.249999
+    height: 23.312498
+    xOffset: 1.6249999
+    yOffset: 26.624998
+    xAdvance: 11.5
+    scale: 1
+  - id: 117
+    x: 167
+    y: 151
+    width: 9.187499
+    height: 24.687498
+    xOffset: 1.6249999
+    yOffset: 26.687498
+    xAdvance: 12.4375
+    scale: 1
+  - id: 118
+    x: 99
+    y: 185
+    width: 10.374999
+    height: 26.687498
+    xOffset: 1.6249999
+    yOffset: 27.562498
+    xAdvance: 13.6875
+    scale: 1
+  - id: 119
+    x: 6
+    y: 97
+    width: 15.562499
+    height: 27.124998
+    xOffset: 1.6249999
+    yOffset: 26.874998
+    xAdvance: 18.75
+    scale: 1
+  - id: 120
+    x: 68
+    y: 21
+    width: 12.062499
+    height: 26.437498
+    xOffset: 1.6249999
+    yOffset: 26.874998
+    xAdvance: 15.4375
+    scale: 1
+  - id: 121
+    x: 143
+    y: 34
+    width: 11.062499
+    height: 25.312498
+    xOffset: 1.6249999
+    yOffset: 24.687498
+    xAdvance: 14.375
+    scale: 1
+  - id: 122
+    x: 167
+    y: 187
+    width: 9.062499
+    height: 25.249998
+    xOffset: 1.6249999
+    yOffset: 26.124998
+    xAdvance: 12.3125
+    scale: 1
+  - id: 8230
+    x: 169
+    y: 8
+    width: 14.437499
+    height: 2.4374998
+    xOffset: 1.6249999
+    yOffset: 2.8749998
+    xAdvance: 17.75
+    scale: 1
+  m_kerningInfo:
+    kerningPairs: []
+  m_kerningPair:
+    m_FirstGlyph: 0
+    m_FirstGlyphAdjustments:
+      xPlacement: 0
+      yPlacement: 0
+      xAdvance: 0
+      yAdvance: 0
+    m_SecondGlyph: 0
+    m_SecondGlyphAdjustments:
+      xPlacement: 0
+      yPlacement: 0
+      xAdvance: 0
+      yAdvance: 0
+    xOffset: 0
+  fallbackFontAssets: []
+  fontCreationSettings:
+    fontSourcePath:
+    fontSizingMode: 0
+    fontSize: 0
+    fontPadding: 0
+    fontPackingMode: 0
+    fontAtlasWidth: 0
+    fontAtlasHeight: 0
+    fontCharacterSet: 0
+    fontStyle: 0
+    fontStlyeModifier: 0
+    fontRenderMode: 0
+    fontKerning: 0
+  fontWeights:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10

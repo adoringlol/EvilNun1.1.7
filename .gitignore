@@ -1,0 +1,39 @@
+# ---- Unity generated / caches ----
+/Library/
+/Temp/
+/Obj/
+/obj/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/[Bb]uild/
+/[Bb]uilds/
+
+# ---- IDE / solution files (Unity regenerates these) ----
+/.vs/
+/.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---- Built player / runtime (not source) ----
+/Evil Nun_Data/
+/Mono/
+Evil Nun.exe
+UnityCrashHandler64.exe
+UnityPlayer.dll
+WinPixEventRuntime.dll
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db

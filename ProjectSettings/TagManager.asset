@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - New tag
+  - Touchable
+  - Takeable
+  - CrawlEntrance
+  - Escondite
+  - Floor
+  - PrayZone
+  - Pushable
+  - PhysicObject
+  - Nun
+  - elevator
+  - Analytics
+  - Epic
+  - Rat
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Touchable
+  - Takeable
+  - keys
+  - Zombie
+  - Escondite
+  - PhysicObject
+  - Trigger
+  - Player
+  - CollisionPlayerAndObjects
+  - CantSeeThrought
+  - CollideButCannotSeeThrough
+  - CollisionObjects
+  - Wall
+  - Adorno(NoCollision)
+  - CollideAndCanSeeThrough
+  - CollisionPlayer
+  - ElevatorCage
+  - BloomMobileEffect
+  - CollisionOnlyPlayer
+  - BlocksTouchable
+  - TriggerAudio
+  - NunBodyParts
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

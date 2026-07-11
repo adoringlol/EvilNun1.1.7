@@ -1,0 +1,5 @@
+public enum MTGAdTemplateType
+{
+	MTGAD_TEMPLATE_BIG_IMAGE = 2,
+	MTGAD_TEMPLATE_ONLY_ICON = 3
+}

@@ -1,0 +1,4308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7554888af13e447d4982f6ad48f0af4b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  NeverDestroy: 0
+  UserAgreesToHaveItOnTheScene: 1
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  GoogleLiveSyncIsUptoDate: 1
+  Assets:
+  - {fileID: 11400000, guid: a91d14eed95c2aa45bba7966fc45aeb7, type: 2}
+  - {fileID: 11400000, guid: 897f9fbf32d805a4193da91d48f26772, type: 2}
+  - {fileID: 11400000, guid: f7a27db1104b405428d02d72b750c6ff, type: 2}
+  - {fileID: 11400000, guid: 5437195b9d2b099489b0f11689b63678, type: 2}
+  - {fileID: 11400000, guid: 999ed40d75d61f046bf4ba9f06311ea1, type: 2}
+  - {fileID: 11400000, guid: 96d4453df49989e4e8eefebc4d903822, type: 2}
+  - {fileID: 11400000, guid: f2e8eb3c320456a44a4edd454f5e28c5, type: 2}
+  - {fileID: 11400000, guid: 9dc6f6603bb685f49925c53d3a8585b5, type: 2}
+  - {fileID: 11400000, guid: 9a37956fb51b9bc4d9f67c4c44243043, type: 2}
+  Google_WebServiceURL:
+  Google_SpreadsheetKey:
+  Google_SpreadsheetName:
+  Google_LastUpdatedVersion:
+  GoogleUpdateFrequency: 3
+  GoogleInEditorCheckFrequency: 2
+  GoogleUpdateDelay: 5
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Spanish
+    Code: es
+    Flags: 0
+  - Name: Russian
+    Code: ru
+    Flags: 0
+  - Name: Chinese
+    Code: zh
+    Flags: 0
+  - Name: French
+    Code: fr
+    Flags: 0
+  - Name: German
+    Code: de
+    Flags: 0
+  - Name: Portuguese
+    Code: pt
+    Flags: 0
+  - Name: Italian
+    Code: it
+    Flags: 0
+  - Name: Vietnamese
+    Code: vi
+    Flags: 0
+  IgnoreDeviceLanguage: 0
+  _AllowUnloadingLanguages: 1
+  mTerms:
+  - Term: start_game
+    TermType: 0
+    Description:
+    Languages:
+    - Start
+    - Empezar
+    - Старт
+    - 开始
+    - Commencer
+    - Starten
+    - Iniciar
+    - Inizio
+    - Băt đầu
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: music
+    TermType: 0
+    Description:
+    Languages:
+    - Music
+    - Música
+    - Музыка
+    - 音乐
+    - Musique
+    - Musik
+    - Musica
+    - Musica
+    - Nhạc nền
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: spanish
+    TermType: 0
+    Description:
+    Languages:
+    - Spanish
+    - Español
+    - Испанский
+    - 西班牙语
+    - Espagnol
+    - Spanisch
+    - Espanhol
+    - spagnolo
+    - Tây Ban Nha
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: english
+    TermType: 0
+    Description:
+    Languages:
+    - English
+    - Inglés
+    - Английский
+    - 英语
+    - Anglais
+    - Englisch
+    - Inglês
+    - Inglese
+    - Tiếng Anh
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: loading
+    TermType: 0
+    Description:
+    Languages:
+    - Loading...
+    - Cargando...
+    - Загружается ...
+    - 加载中……
+    - Chargement en cours ...
+    - Wird geladen...
+    - Carregando...
+    - Caricamento in corso...
+    - Đang tải...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: rate_desc
+    TermType: 0
+    Description:
+    Languages:
+    - We will improve the game thanks to your feedback
+    - Gracias a vuestras valoraciones iremos mejorando el juego
+    - Благодаря вашему отзыву мы улучшим игру
+    - 感谢您的建议，我们会更加完善本游戏
+    - Grâce à vos évaluations, nous améliorerons le jeu
+    - Wir werden das Spiel anhand eures Feedbacks verbessern
+    - Vamos melhorar o jogo graças ao seu feedback
+    - Miglioreremo il gioco grazie al tuo feedback
+    - Chúng tôi sẽ cải thiện trò chơi này từ những góp ý của bạn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: rate_title
+    TermType: 0
+    Description:
+    Languages:
+    - Rate us!
+    - ¡Valóranos!
+    - Оцените нас!
+    - 给游戏评分吧！
+    - Vous aimez l´application?
+    - Bewerte uns!
+    - Nos avalie!
+    - Votaci!
+    - Đánh già chúng tôi!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: like_us_fb
+    TermType: 0
+    Description:
+    Languages:
+    - Follow us!
+    - ¡Siguenos!
+    - 'Мы на фейсбуке:'
+    - 关注我们！
+    - Suivez nous!
+    - Folge uns!
+    - Siga-nos!
+    - Seguici!
+    - Theo dõi chúng tôi!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: discord_title
+    TermType: 0
+    Description:
+    Languages:
+    - 'Chat with us:'
+    - 'Chatea con nosotros:'
+    - 'Общайтесь с нами:'
+    - 联系我们：
+    - 'Discutez avec nous:'
+    - 'Schreibe mit uns:'
+    - 'Converse conosco:'
+    - 'Chatta con noi:'
+    - 'Trò chuyện với chúng tôi:'
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: rate_answer
+    TermType: 0
+    Description:
+    Languages:
+    - We always answer
+    - Siempre contestamos
+    - Мы всегда отвечаем
+    - 我们会对每一个评价进行回复
+    - Nous répondons toujours
+    - Wir antworten immer
+    - Nós sempre respondemos
+    - Rispondiamo sempre
+    - Chúng tôi luôn trả lời
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: day
+    TermType: 0
+    Description:
+    Languages:
+    - Day {0}
+    - Día {0}
+    - День {0}
+    - 第 {0} 天
+    - Jour {0}
+    - Tag {0}
+    - Dia {0}
+    - Giorno {0}
+    - Ngày {0}
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: continue
+    TermType: 0
+    Description:
+    Languages:
+    - Continue
+    - Continuar
+    - Продолжить
+    - 继续游戏
+    - continuer
+    - Fortsetzen
+    - Continuar
+    - Continua
+    - Tiếp tục
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: processing_purchase
+    TermType: 0
+    Description:
+    Languages:
+    - Accessing the purchase...
+    - Accediendo a la compra...
+    - Доступ к покупке ...
+    - 正在进行购买……
+    - Accéder à l'achat ...
+    - Kauf wird durchgeführt...
+    - Acessando a compra...
+    - Accedere all'acquisto ...
+    - Truy cấp mua hàng...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: purchase_failure
+    TermType: 0
+    Description:
+    Languages:
+    - The purchase could not be completed. Please try again
+    - La compra no ha podido completarse. Vuelve a intentarlo por favor
+    - Покупка не может быть завершена. Повторите попытку
+    - 购买未完成，请再试一次
+    - L'achat n'a pas pu être complété. S'il vous plaît essayer à nouveau
+    - Der Kauf konnte nicht abgeschlossen werden. Bitte versuche es erneut
+    - A compra não pode ser completada. tente mais uma vez
+    - L'acquisto non può essere completato. Per favore riprova
+    - Không thể mua hàng. Làm ơn thử lại.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: remove_ads
+    TermType: 0
+    Description:
+    Languages:
+    - Remove ads
+    - Quitar anuncios
+    - Удалить рекламу
+    - 移除广告
+    - Supprimer les annonces
+    - Werbung entfernen
+    - Remover anúncios
+    - Rimuovere gli annunci
+    - Loại bỏ quảng cáo.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: thanks_purchase
+    TermType: 0
+    Description:
+    Languages:
+    - Thanks for making the purchase!
+    - ¡Gracias por realizar la compra!
+    - Благодарим за покупку!
+    - 感谢您的购买！
+    - Merci d'avoir fait l'achat!
+    - Vielen Dank für deinen Kauf!
+    - Obrigado por fazer a compra!
+    - Grazie per aver effettuato l'acquisto!
+    - Cảm ơn vì đã mua hàng.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: thanks_purchase_2
+    TermType: 0
+    Description:
+    Languages:
+    - We will not show you more ads. Enjoy playing Evil Nun =)
+    - No te mostraremos más anuncios. Disfruta jugando Evil Nun =)
+    - Мы не будем показывать вам больше объявлений. Наслаждайтесь Evil Nun! =)
+    - 已经移除广告，请好好享受游玩《鬼修女》吧 =)
+    - Nous ne vous montrerons plus d’annonces. Amusez-vous à jouer Evil Nun =)
+    - Es wird keine Werbung mehr auftauchen. Viel Spaß mit Evil Nun =)
+    - Não vamos mostrar mais anúncios. divirta-se jogando Evil Nun =)
+    - Non ti mostreremo più annunci. Divertiti giocando a Evil Nun =)
+    - Chúng tôi sẽ loại bỏ quảng cảo. Hãy trải nghiệm Evil Nun =))
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: premmium
+    TermType: 0
+    Description:
+    Languages:
+    - Premium version
+    - Versión premium
+    - Премиум версия
+    - 高级版
+    - Version premium
+    - Premiumversion
+    - Versão premium
+    - Versione Premium
+    - Phiên bản đặc biệt.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: pause
+    TermType: 0
+    Description:
+    Languages:
+    - Paused
+    - En pausa
+    - Пауза
+    - 游戏暂停
+    - Sur pause
+    - Pause
+    - Pausado
+    - In pausa
+    - Tạm dừng.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: privacy
+    TermType: 0
+    Description:
+    Languages:
+    - Privacy policy
+    - Política de privacidad
+    - Политика конфиденциальности
+    - 隐私政策
+    - Politique de confidentialité
+    - Datenschutzbestimmungen
+    - política de Privacidade
+    - Politica sulla riservatezza
+    - Chính sách bảo mật.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: own_name
+    TermType: 0
+    Description:
+    Languages:
+    - Own name
+    - Nombre propio
+    - Собственное имя
+    - 你的名字
+    - Nom propre
+    - Eigener Name
+    - Proprio nome
+    - Proprio nome
+    - Tên của bạn.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: enter_name
+    TermType: 0
+    Description:
+    Languages:
+    - Enter your name...
+    - Introduce tu nombre...
+    - Введите свое имя ...
+    - 键入你的名字……
+    - Entrez votre nom ...
+    - Gib deinen Namen ein...
+    - Escreva seu nome...
+    - Inserisci il tuo nome...
+    - Nhập tên của bạn...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: restore_purchases
+    TermType: 0
+    Description:
+    Languages:
+    - Restore purchases
+    - Restaurar compras
+    - Восстановить покупки
+    - 恢复购买内容
+    - Restaurer les achats
+    - Käufe wiederherstellen
+    - Restaurar compras
+    - Ripristinare gli acquisti
+    - Khôi phục mua hàng.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: restoring_purchases
+    TermType: 0
+    Description:
+    Languages:
+    - Restoring purchases...
+    - Restaurando las compras...
+    - Восстановление покупок ...
+    - 正在恢复购买内容……
+    - Restaurer les achats ...
+    - Käufe werden wiederhergestellt...
+    - Restaurando compras...
+    - Ripristino degli acquisti ...
+    - Đang khôi phục mua hàng...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: sensitivity
+    TermType: 0
+    Description:
+    Languages:
+    - Sensitivity of camera
+    - Sensibilidad de la cámara
+    - Чувствительность камеры
+    - 镜头的灵敏度
+    - Sensibilité de la caméra
+    - Empfindlichkeit der Kamera
+    - Sensibilidade da câmera
+    - Sensibilità della fotocamera
+    - Độ nhạy của camera
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: difficulty
+    TermType: 0
+    Description:
+    Languages:
+    - Difficulty
+    - Dificultad
+    - Сложность
+    - 难度
+    - Difficulté
+    - Schwierigkeit
+    - Dificuldade
+    - Difficoltà
+    - Độ khó.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: easy
+    TermType: 0
+    Description:
+    Languages:
+    - Easy
+    - Fácil
+    - Легко
+    - 容易
+    - Facile
+    - Einfach
+    - Fácil
+    - Facile
+    - Dễ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: normal
+    TermType: 0
+    Description:
+    Languages:
+    - Normal
+    - Normal
+    - Нормально
+    - 正常
+    - Normal
+    - Normal
+    - Normal
+    - Normale
+    - Bình Thường
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: hard
+    TermType: 0
+    Description:
+    Languages:
+    - Hard
+    - Difícil
+    - Сложность
+    - 困难
+    - Difficile
+    - Schwer
+    - Difícil
+    - Difficile
+    - Khó
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: later
+    TermType: 0
+    Description:
+    Languages:
+    - Later
+    - Más tarde
+    - Позже
+    - 稍后
+    - Plus tard
+    - Später
+    - Mais Tarde
+    - Dopo
+    - Một lát sau.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: remove_ads_window_title
+    TermType: 0
+    Description:
+    Languages:
+    - Do the ads bother you? "Evil Nun" is free and we need them to be able to eat
+    - ¿Te molestan los anuncios? "Evil Nun" es gratuito y los necesitamos para poder comer
+    - Реклама вас беспокоит? «Evil Nun» - бесплатная игра и реклама помогает разработчикам.
+    - 游戏中的广告困扰到您了吗？《鬼修女》是一款免费游戏，而我们需要依赖广告才能吃得起饭
+    - Est-ce que les publicités vous dérangent? "La Monja" est gratuit et nous en avons besoin pour manger
+    - Stört dich die Werbung? "Evil Nun" ist kostenlos und wir brauchen sie zum essen
+    - Esses anúncios te encomodam? "Evil Nun" é grátis, e precisamos deles para poder comer
+    - Le pubblicità ti danno fastidio? "The Nun" è gratis e abbiamo bisogno che siano in grado di mangiare
+    - Bạn có thầy phiên về quảng cáo không? Evil Nun là miễn phí nên chúng tôi cần thêm quảng cáo để có tiền phát triển Evil Nun.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: remove_ads_window_description
+    TermType: 0
+    Description:
+    Languages:
+    - If you do not want to see more ads you can make a donation =)
+    - Si no quieres ver más anuncios puedes hacer una donación =)
+    - Если вы не хотите видеть больше объявлений, вы можете сделать пожертвование =)
+    - 如果您不想再看到广告，可以给我们赞助 =)
+    - Si vous ne voulez pas voir plus d'annonces, vous pouvez faire un don =)
+    - Wenn du keine Werbung mehr sehen möchtest, kannst du ja eine Spende abgeben =)
+    - Se você não quer ver mais anúncios, voce pode fazer uma doação =)
+    - Se non vuoi vedere più annunci puoi fare una donazione =)
+    - Nếu bạn không muốn bị quảng cáo làm phiên thì có thể ủng hộ tiền cho chúng tôi.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: coffee
+    TermType: 0
+    Description:
+    Languages:
+    - A Coffee
+    - Un Café
+    - Кофе
+    - 一杯咖啡
+    - Un café
+    - Ein Kaffee
+    - Um café
+    - Un caffè
+    - Cà phê
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: sandwitch
+    TermType: 0
+    Description:
+    Languages:
+    - A sandwich
+    - Un sandwich
+    - Сэндвич
+    - 一块三明治
+    - Un sandwich
+    - Ein Sandwich
+    - Um sanduíche
+    - Un panino
+    - Bánh Mì Sandwich
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: pizza
+    TermType: 0
+    Description:
+    Languages:
+    - A pizza
+    - Una pizza
+    - Пицца
+    - 一份披萨
+    - Une pizza
+    - Eine Pizza
+    - Uma pizza
+    - Una pizza
+    - Bánh Pizza
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: game_settings
+    TermType: 0
+    Description:
+    Languages:
+    - Game settings
+    - Ajustes de la partida
+    - Настройки
+    - 游戏设置
+    - Paramètres du jeu
+    - Spieleinstellungen
+    - Configurações do jogo
+    - Impostazioni di gioco
+    - Cài đặt game.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: general_settings
+    TermType: 0
+    Description:
+    Languages:
+    - General settings
+    - Ajustes generales
+    - Общие настройки
+    - 设置
+    - Ajustements généraux
+    - Allgemeine Einstellungen
+    - Configurações em geral
+    - Impostazioni generali
+    - Cài đặt chung.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: quality
+    TermType: 0
+    Description:
+    Languages:
+    - Graphics quality
+    - Calidad gráfica
+    - Качество графики
+    - 图形质量
+    - Qualité graphique
+    - Grafikqualität
+    - Qualidade grafica
+    - Qualità grafica
+    - Chất lượng đồ họa
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: language
+    TermType: 0
+    Description:
+    Languages:
+    - Language
+    - Idioma
+    - Язык
+    - 语言
+    - langage
+    - Sprache
+    - Linguagem
+    - linguaggio
+    - Ngôn ngữ.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: select_language
+    TermType: 0
+    Description:
+    Languages:
+    - Select your language
+    - Elige tu idioma
+    - Выберите язык
+    - 选择你的语言
+    - Choisissez votre langue
+    - Wähle deine Sprache
+    - Escolha sua língua
+    - seleziona la tua lingua
+    - Chọn ngôn ngữ.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: laundry
+    TermType: 0
+    Description:
+    Languages:
+    - Laundry door
+    - Puerta de lavandería
+    - Прачечная
+    - 洗衣房门
+    - Porte de blanchisserie
+    - Wäschekammer
+    - Porta da lavanderia
+    - Porta della lavanderia
+    - Giặt ủi
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: electric_box
+    TermType: 0
+    Description:
+    Languages:
+    - Electric panel
+    - Cuadro eléctrico
+    - Электрическая панель
+    - 配电盘
+    - Panneau électrique
+    - Elektronisches Schaltsystem
+    - Painel elétrico
+    - Quadro elettrico
+    - Bẳng điều khiển
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: itown_hat
+    TermType: 0
+    Description:
+    Languages:
+    - Hat of iTownGameplay
+    - Gorro de iTownGameplay
+    - Шапка ITownGameplay
+    - iTownGameplay帽子
+    - ITownGameplay Cap
+    - Hut von iTownGameplay
+    - Chapeu de iTownGameplay
+    - Cappello di iTownGameplay
+    - Mũ của iTownGameplay
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_board_01
+    TermType: 0
+    Description:
+    Languages:
+    - Instructions
+    - Instrucciones
+    - Инструкции
+    - 提示
+    - Instructions
+    - Anleitung
+    - Instruções
+    - Istruzioni
+    - Hướng dẫn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_board_02
+    TermType: 0
+    Description:
+    Languages:
+    - She hears everything you do
+    - Ella oye todos tus movimientos
+    - Она слышит все что ты делаешь
+    - 她能听见你发出的任何动静
+    - Elle entend tous tes mouvements
+    - Sie hört alles, was du machst
+    - Ela escuta tudo o que faz
+    - Lei sente tutto quello che fai
+    - Bà ta rất thính
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_board_03
+    TermType: 0
+    Description:
+    Languages:
+    - Be aware. She can get anywhere
+    - No te despistes. Puede llegar a cualquier parte
+    - Будь начеку! Она может найти тебя везде
+    - 记住，她哪都可能会去
+    - Ne vous perdez pas. Vous pouvez aller n'importe où
+    - Pass auf dich auf. Sie kann überallhin
+    - Tenha cuidado. Ela pode ir para qualquer lugar
+    - Sii consapevole Lei può arrivare ovunque
+    - Hãy cảnh giác. Bà ta có thể đến bất cứ lúc nào
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_board_04
+    TermType: 0
+    Description:
+    Languages:
+    - You must hurry to leave school
+    - Date prisa en salir del colegio
+    - Ты должен срочно покинуть школу
+    - 你必须尽快离开这所学校
+    - Dépêchez-vous de l'école
+    - Du musst die Schule so schnell wie möglich verlassen
+    - Tenha pressa para sair da escola
+    - Devi sbrigarti a lasciare la scuola
+    - Bạn cần nhanh chóng rời khỏi trường học
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_board_05
+    TermType: 0
+    Description:
+    Languages:
+    - The ritual is about to begin. And you are part of it
+    - El ritual está a punto de comenzar. Y tú eres parte de él
+    - Ритуал вот-вот начнется. И ты - часть его
+    - 仪式就要开始了，而你是其中的一员
+    - Le rituel est sur le point de commencer. Et vous faites partie de lui
+    - Die Zeremonie beginnt gleich. Und du bist ein Teil von ihr
+    - O ritual esta quase começando. E você é parte dele
+    - Il rituale sta per iniziare. E tu ne fai parte
+    - Nghi lễ chuẩn bị bắt đầu. Bạn có {time} để hành động.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_note_title
+    TermType: 0
+    Description:
+    Languages:
+    - EAGLE'S JUNIOR SCHOOL
+    - ESCUELA SECUNDARIA EL ÁGUILA
+    - Средняя школа Nº12
+    - 伊格尔小学
+    - ÉCOLE SECONDAIRE EL ÁGUILA
+    - EAGLES-GRUNDSCHULE
+    - Escola júnior da águia
+    - SCUOLA JUNIOR DI EAGLE
+    - Trường EAGLE'S JUNIOR
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_note_start
+    TermType: 0
+    Description:
+    Languages:
+    - Progress report of
+    - Informe de progreso de
+    - Аттестат успеваемости
+    - 进度
+    - Rapport d'avancement
+    - Fortschrittsbericht
+    - Relatório de progresso de
+    - Relazione sullo stato di avanzamento di
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_note_description
+    TermType: 0
+    Description:
+    Languages:
+    - "Congratulations!\nYour child has been selected to participate, free of charge, in the new summer camp organized by this school. With the best care and attention your chid will spend an unforgettable summer."
+    - "¡Enhorabuena!\nSu hijo ha sido seleccionado para participar, de forma gratuita, en el nuevo campamento de verano organizado por este colegio. Aprenderá a ser una buena persona a través de un novedoso metodo didáctico. Con los mejores cuidados y atenciones pasará un verano inolvidable.\n"
+    - "Поздравляем!\n Ваш ребенок был выбран бесплатно для участия в новом летнем лагере, организованном этой школой. Вы научитесь быть хорошим человеком с помощью нового дидактического метода. С наилучшим вниманием и вниманием вы проведете незабываемое лето."
+    - "恭喜，\n您的孩子已被免费选入参加本学校组织的夏令营。在精心的照料下您的孩子将会度过一个难忘的夏天。"
+    - "Félicitations!\n Votre enfant a été sélectionné pour participer gratuitement au nouveau camp d’été organisé par cette école. Vous apprendrez à être une bonne personne grâce à une nouvelle méthode didactique. Avec les meilleurs soins et l'attention, vous passerez un été inoubliable."
+    - Herzlichen Glückwunsch. Ihr Kind wurde für die kostenlose Teilnahme am neuen Sommercamp dieser Schule ausgewählt. Mit größter Sorgfalt und Aufmerksamkeit wird ihr Kind einen unvergesslichen Sommer verbringen.
+    - "Parabéns.\n \n Seu filho foi selecionado para participar, gratuitamente, no novo acampamento de verão organizado por essa escola. Com o melhor cuidado e atenção, seu filho passará um verão inesquecível."
+    - "Complimenti!\nIl tuo bambino è stato selezionato per partecipare gratuitamente al nuovo campo estivo organizzato da questa scuola. Imparerai ad essere una brava persona attraverso un nuovo metodo didattico. Con la massima cura e attenzione trascorrerai un'estate indimenticabile."
+    - "Xin chúc mừng!\nCon của bạn đã may mắn được tham gia trại hè của trường. Chắc chắn đứa bé sẽ có một mùa hè khó quên."
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu_note_greeting
+    TermType: 0
+    Description:
+    Languages:
+    - A cordial greeting
+    - Un saludo cordial
+    - С уважением
+    - 亲切的问候
+    - Cordialement
+    - Grüße
+    - Uma saudação cordial
+    - Un cordiale saluto
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: door
+    TermType: 0
+    Description:
+    Languages:
+    - Door
+    - Puerta
+    - Дверь
+    - 门
+    - Porte
+    - Tür
+    - Porta
+    - Porta
+    - Cánh cửa
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: locker
+    TermType: 0
+    Description:
+    Languages:
+    - Big locker
+    - Taquilla grande
+    - Большой шкафчик
+    - 大储物柜
+    - Grand guichet
+    - Großer Spind
+    - Grande Armário
+    - Grande armadietto
+    - Tủ khóa lớn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: little_locker
+    TermType: 0
+    Description:
+    Languages:
+    - Little locker
+    - Taquilla pequeña
+    - Маленький шкафчик
+    - 小储物柜
+    - Petite billetterie
+    - Kleiner Spind
+    - Pequeno Armário
+    - Piccolo armadietto
+    - Tủ khóa nhỏ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: book
+    TermType: 0
+    Description:
+    Languages:
+    - Old book
+    - Libro antiguo
+    - Старая книга
+    - 破旧的书
+    - Livre ancien
+    - Altes Buch
+    - Livro antigo
+    - Libro vecchio
+    - Sách củ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: heavy_book
+    TermType: 0
+    Description:
+    Languages:
+    - Heavy book
+    - Libro pesado
+    - Тяжелая книга
+    - 沉重的书
+    - Livre lourd
+    - Schweres Buch
+    - Livro pesado
+    - Libro pesante
+    - Sách lớn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: sport_ball
+    TermType: 0
+    Description:
+    Languages:
+    - Sport ball
+    - Balón de deporte
+    - Мяч
+    - 体育用球
+    - Balle de sport
+    - Sportball
+    - Bola de esporte
+    - Palla sportiva
+    - Trái bóng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cable
+    TermType: 0
+    Description:
+    Languages:
+    - Small cable
+    - Cable pequeño
+    - Маленький кабель
+    - 小型电缆
+    - Petit câble
+    - Kurzes Kabel
+    - Cabo pequeno
+    - Piccolo cavo
+    - Dây cáp
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: goat_head
+    TermType: 0
+    Description:
+    Languages:
+    - Goat's head
+    - Cabeza de cabra
+    - Голова козла
+    - 山羊头
+    - Tête de chèvre
+    - Ziegenkopf
+    - Cabeça de cabra
+    - La testa di capra
+    - Đầu dê
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: blanket
+    TermType: 0
+    Description:
+    Languages:
+    - White blanket
+    - Manta blanca
+    - Белое одеяло
+    - 白色毯子
+    - Couverture blanche
+    - Weiße Decke
+    - Cobertor branco
+    - Coperta bianca
+    - Ra giường
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: wings
+    TermType: 0
+    Description:
+    Languages:
+    - Eagle's wings
+    - Alas de águila
+    - Крылья орла
+    - 鹰的翅膀
+    - Ailes d'aigle
+    - Adlerflügel
+    - Asas de águia
+    - Ali d'aquila
+    - Cảnh của Eagle
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: fork
+    TermType: 0
+    Description:
+    Languages:
+    - Fork
+    - Tenedor
+    - Вилка
+    - 叉子
+    - Fourchette
+    - Gabel
+    - Garfo
+    - Forchetta
+    - Nĩa
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: spoon
+    TermType: 0
+    Description:
+    Languages:
+    - Spoon
+    - Cuchara
+    - Ложка
+    - 调羹
+    - Cuillère
+    - Löffel
+    - Colher
+    - Cucchiaio
+    - Muỗng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: scissors
+    TermType: 0
+    Description:
+    Languages:
+    - Scissors
+    - Tijeras
+    - Ножницы
+    - 剪刀
+    - Ciseaux
+    - Schere
+    - Tesoura
+    - Forbici
+    - Kéo
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: skeleton
+    TermType: 0
+    Description:
+    Languages:
+    - Skeleton body
+    - Cuerpo de esqueleto
+    - Скелет
+    - 骨架
+    - Corps squelette
+    - Skelettkörper
+    - Esqueleto
+    - Corpo scheletro
+    - Bộng xương khô
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: window
+    TermType: 0
+    Description:
+    Languages:
+    - Window
+    - Ventana
+    - Окно
+    - 窗户
+    - Fenêtre
+    - Fenster
+    - Janela
+    - Finestra
+    - Cửa sổ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: rope
+    TermType: 0
+    Description:
+    Languages:
+    - Rope holding mannequin
+    - Cuerda sujetando maniquí
+    - Веревка с манекеном
+    - 被绳索拉住的模型
+    - Mannequin tenant une corde
+    - Puppe an einem Seil
+    - Corda segurando manequim
+    - Corda che tiene manichino
+    - Sợi dây cố định
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: toilet_paper
+    TermType: 0
+    Description:
+    Languages:
+    - Toilet paper
+    - Papel higiénico
+    - Туалетная бумага
+    - 厕纸
+    - Papier hygiénique
+    - Toilettenpapier
+    - Papel higiênico
+    - Carta igienica
+    - Giấy vệ sinh
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: food_can
+    TermType: 0
+    Description:
+    Languages:
+    - Food can
+    - Lata de comida
+    - Консервная банка
+    - 食物罐头
+    - Canette de nourriture
+    - Konservendose
+    - Lata de comida
+    - Barattolo di cibo
+    - 'Đô hộp '
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: crowbar
+    TermType: 0
+    Description:
+    Languages:
+    - Crowbar
+    - Palanca
+    - Лом
+    - 撬棍
+    - Levier
+    - Brecheisen
+    - Pé de cabra
+    - Piede di porco
+    - Xà beng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: nail
+    TermType: 0
+    Description:
+    Languages:
+    - Nail
+    - Clavo
+    - Гвоздь
+    - 钉子
+    - Ongle
+    - Nagel
+    - Prégo
+    - Chiodo
+    - Móng tay
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: wood_plank
+    TermType: 0
+    Description:
+    Languages:
+    - Wood plank
+    - Tabla de madera
+    - Деревяная доска
+    - 木板
+    - Table en bois
+    - Holzbrett
+    - Tábua de madeira
+    - Asse di legno
+    - Tấm gỗ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: secret_code
+    TermType: 0
+    Description:
+    Languages:
+    - Locker code
+    - Código de taquilla
+    - Код от шкафчика
+    - 储物柜密码
+    - Code du box office
+    - Schließfachcode
+    - Código de armário
+    - Codice di armadietto
+    - Mã khóa
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: metal_blind
+    TermType: 0
+    Description:
+    Languages:
+    - Metalic blind
+    - Persiana metálica
+    - Металлический ролет
+    - 金属百叶窗
+    - Store en métal
+    - Rolladen
+    - Persianas metálicas
+    - Cieco metallico
+    - Cửa kéo tự động
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: trapdoor
+    TermType: 0
+    Description:
+    Languages:
+    - Trapdoor
+    - Rejilla
+    - Потайная дверь
+    - 暗门
+    - Grille
+    - Falltür
+    - Alçapão
+    - Botola
+    - Cửa bí mật
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: switch
+    TermType: 0
+    Description:
+    Languages:
+    - Switch
+    - Interruptor
+    - Выключатель
+    - 开关
+    - Changer
+    - Schalter
+    - Interruptor
+    - Interruttore
+    - Công tắc điện
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: drawer
+    TermType: 0
+    Description:
+    Languages:
+    - Drawer
+    - Cajón
+    - Выдвижной ящик
+    - 抽屉
+    - Cajón
+    - Schublade
+    - Gaveta
+    - Cassetto
+    - Ngăn kéo
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: master_key
+    TermType: 0
+    Description:
+    Languages:
+    - Master key
+    - Llave maestra
+    - Мастер-ключ
+    - 万能钥匙
+    - Clé principale
+    - Hauptschlüssel
+    - Chave mestra
+    - Chiave principale
+    - Chìa khóa cửa chính
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: padlock
+    TermType: 0
+    Description:
+    Languages:
+    - Padlock
+    - Candado
+    - Замок
+    - 挂锁
+    - Cadenas
+    - Vorhängeschloss
+    - Cadeado
+    - Lucchetto
+    - Ổ khóa
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: safe_key
+    TermType: 0
+    Description:
+    Languages:
+    - Safe key
+    - Llave de caja fuerte
+    - Ключ от сейфа
+    - 保险箱钥匙
+    - Clé de sécurité
+    - Tresorschlüssel
+    - Chave do cofre
+    - Chiave sicura
+    - Chìa khóa két sắt
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: safe
+    TermType: 0
+    Description:
+    Languages:
+    - Safe box
+    - Caja fuerte
+    - Сейф
+    - 保险箱
+    - Coffre fort
+    - Tresor
+    - Cofre
+    - Cassetta di sicurezza
+    - Két sắt
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: papers
+    TermType: 0
+    Description:
+    Languages:
+    - Note for {0}
+    - Nota para {0}
+    - Записка для {0}
+    - 给 {0} 的便签
+    - Remarque pour {0}
+    - Notiz für {0}
+    - Carta para {0}
+    - Nota per {0}
+    - Lưu ý thứ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: radio
+    TermType: 0
+    Description:
+    Languages:
+    - Radio
+    - Radio
+    - Радио
+    - 收音机
+    - Radio
+    - Radio
+    - Radio
+    - Radio
+    - Máy radio
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: explosive_doll_piece
+    TermType: 0
+    Description:
+    Languages:
+    - Piece of an explosive doll
+    - Pieza de una muñeca explosiva
+    - Кусок взрывной куклы
+    - 爆炸娃娃的一部分
+    - Pièce d'une poupée explosive
+    - Teil einer explosiven Puppe
+    - Pedaço de um boneco explosivo
+    - Pezzo di bambola esplosiva
+    - Phụ kiên búp bê thuốc nổ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: explosive_doll
+    TermType: 0
+    Description:
+    Languages:
+    - Explosive doll
+    - Muñeca explosiva
+    - Взрывная кукла
+    - 爆炸娃娃
+    - Poupée explosive
+    - Explosive Puppe
+    - Boneco explosivo
+    - Bambola esplosiva
+    - Thuốc nổ đồ chơi
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: oil
+    TermType: 0
+    Description:
+    Languages:
+    - Bottle of oil
+    - Botella con aceite
+    - Бутылка с маслом
+    - 油瓶
+    - Bouteille d'huile
+    - Ölflasche
+    - Garrafa de óleo
+    - Bottiglia di olio
+    - Dầu máy
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: dynamite
+    TermType: 0
+    Description:
+    Languages:
+    - Dynamite
+    - Dinamita
+    - Динамит
+    - 炸药
+    - Dynamite
+    - Dynamit
+    - Dinamite
+    - Dinamite
+    - Thuốc nổ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: button
+    TermType: 0
+    Description:
+    Languages:
+    - Button
+    - Botón
+    - Кнопка
+    - 按键
+    - Bouton
+    - Knopf
+    - Botão
+    - Pulsante
+    - Nút
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cartel
+    TermType: 0
+    Description:
+    Languages:
+    - Poster
+    - Cartel
+    - Постер
+    - 海报
+    - Affiche
+    - Poster
+    - Poster
+    - Manifesto
+    - Áp phích
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: closet
+    TermType: 0
+    Description:
+    Languages:
+    - Closet
+    - Armario
+    - Шкаф
+    - 柜子
+    - Armoire
+    - Kleiderschrank
+    - Armário de roupa
+    - Guardaroba
+    - Tủ quần áo
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: mechanism
+    TermType: 0
+    Description:
+    Languages:
+    - Elevator's mechanism
+    - Mecanismo del ascensor
+    - Механизм лифта
+    - 电梯零件
+    - Mécanisme d'ascenseur
+    - Aufzugmechanismus
+    - Mecanismo do elevador
+    - Meccanismo dell'ascensore
+    - Ròng rọc thang máy
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: open
+    TermType: 0
+    Description:
+    Languages:
+    - Open
+    - Abrir
+    - Открыть
+    - 打开
+    - Ouvert
+    - Öffnen
+    - Abrir
+    - Aperto
+    - Mở
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: close
+    TermType: 0
+    Description:
+    Languages:
+    - Close
+    - Cerrar
+    - Закрыть
+    - 关上
+    - Fermer
+    - Schließen
+    - Fechar
+    - Vicino
+    - Đóng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: use_item
+    TermType: 0
+    Description:
+    Languages:
+    - Use
+    - Usar
+    - Использовать
+    - 使用
+    - Porter
+    - Benutzen
+    - Usar
+    - Uso
+    - Sử dụng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: throw_item
+    TermType: 0
+    Description:
+    Languages:
+    - Drop
+    - Tirar
+    - Бросить
+    - 丢弃
+    - Jeter
+    - Fallen lassen
+    - Soltar
+    - Far cadere
+    - Bỏ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: take
+    TermType: 0
+    Description:
+    Languages:
+    - Hold
+    - Coger
+    - Держать
+    - 拾起
+    - Prendre
+    - Halten
+    - Segurar
+    - tenere
+    - Nhấn giữ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: look
+    TermType: 0
+    Description:
+    Languages:
+    - Look
+    - Mirar
+    - Смотреть
+    - 看
+    - Regarde
+    - Ansehen
+    - Olhar
+    - Guarda
+    - Nhìn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: push
+    TermType: 0
+    Description:
+    Languages:
+    - Push
+    - Empujar
+    - Толкнуть
+    - 推
+    - Pousser
+    - Schieben
+    - Empurrar
+    - spingere
+    - 'Đẩy '
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: remove
+    TermType: 0
+    Description:
+    Languages:
+    - Remove
+    - Quitar
+    - Удалить
+    - 撬开
+    - Supprimer
+    - Entfernen
+    - Retirar
+    - Rimuovere
+    - Loại bỏ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: wear
+    TermType: 0
+    Description:
+    Languages:
+    - Wear
+    - Vestir
+    - Надеть
+    - 穿上
+    - S'habiller
+    - Anziehen
+    - Vestir
+    - Indossare
+    - Mặc
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: last_day
+    TermType: 0
+    Description:
+    Languages:
+    - The last day
+    - Último día
+    - Последний день
+    - 最后一天
+    - Le dernier jour
+    - Der letzte Tag
+    - O ultimo dia
+    - L'ultimo giorno
+    - Ngày cuối cùng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: initial_message
+    TermType: 0
+    Description:
+    Languages:
+    - I have to leave this school
+    - Tengo que abandonar este colegio
+    - Я должен покинуть эту школу
+    - 我得赶紧离开这所学校
+    - Je dois quitter cette école
+    - Ich muss diese Schule verlassen
+    - Eu devo sair dessa escola
+    - Devo lasciare questa scuola
+    - Tôi phải rời khỏi cái trường này
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: nun_book_01
+    TermType: 0
+    Description:
+    Languages:
+    - This nun thinks only about the devil
+    - Esta monja sólo piensa en el demonio
+    - Эта монахиня думает только о дьяволе
+    - 这修女信的是恶魔
+    - Cette religieuse ne pense qu'au diable
+    - Diese Nonne denkt nur an den Teufel
+    - Essa freira só pensa no demônio
+    - Questa suora pensa solo al diavolo
+    - Bà sơ chỉ toàn cầu nguyện về QUỶ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: entrance_button_description
+    TermType: 0
+    Description:
+    Languages:
+    - It seems that the current does not reach this switch
+    - Parece que no llega la corriente a este interruptor
+    - Кажется, что ток не доходит до этого переключателя
+    - 似乎这个开关没有电流
+    - Il semble que le courant n'atteint pas ce commutateur
+    - Anscheinend erreicht der Strom diesen Schalter nicht
+    - Parece que a energia não chega a este interruptor
+    - Sembra che la corrente non raggiunga questo interruttore
+    - Có vẽ như bây giờ chưa dùng được công tắc
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: lever_description
+    TermType: 0
+    Description:
+    Languages:
+    - A cable is needed to restore the electric current
+    - Hace falta un cable para restablecer la corriente eléctrica
+    - Для восстановления электрического тока необходим кабель
+    - 需要一个电缆才能恢复电流
+    - Un câble est nécessaire pour restaurer le courant électrique
+    - Du benötigst ein Kabel, um den elektrischen Strom wiederherzustellen.
+    - Um cabo é presciso para restaurar a energia elétrica
+    - È necessario un cavo per ripristinare la corrente elettrica
+    - Cần có dây cáp để khôi phục điện
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: lever_try
+    TermType: 0
+    Description:
+    Languages:
+    - Oops...with this object does not work
+    - Vaya...con este objeto no funciona
+    - Ой... С этим объектом не работает
+    - 哎呀……用这个物品行不通
+    - Allez ... avec cet objet ça ne marche pas
+    - Ups... damit funktioniert es nicht
+    - Opa... não funciona com este objeto
+    - Oops ... con questo oggetto non funziona
+    - Ôi chêt... nó không hoạt động
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: lever_success
+    TermType: 0
+    Description:
+    Languages:
+    - You have restored the electrical current that was missing
+    - Has restablecido la corriente eléctrica que faltaba
+    - Ты восстановил отсутствующий электрический ток
+    - 你恢复了电流
+    - Vous avez rétabli le courant électrique qui manquait
+    - Du hast den fehlenden elektrischen Strom wiederhergestellt
+    - Você restaurou a energia elétrica que estava faltando
+    - Hai ripristinato la corrente elettrica che mancava
+    - Bạn đã sửa lại dòng điện
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: mannequin
+    TermType: 0
+    Description:
+    Languages:
+    - It could be cut with a scissors...
+    - Se podría cortar con unas tijeras...
+    - Можно обрезать ножницами ...
+    - 应该可以用剪刀来剪开……
+    - On pourrait le couper avec des ciseaux ...
+    - Das könnte mit einer Schere durchgeschnitten werden...
+    - Pode ser cortado com uma tesoura...
+    - Potrebbe essere tagliato con le forbici ...
+    - Có thể dùng kèo để cắt
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: mannequin_drop
+    TermType: 0
+    Description:
+    Languages:
+    - You have dropped the team mascot to the gym
+    - Has dejado caer al gimnasio la mascota del equipo
+    - Ты бросил командный талисман в спортзал
+    - 你把球队吉祥物扔到体育馆去了
+    - Vous avez déposé la mascotte de l'équipe au gymnase
+    - Du hast das Mannschaftsmaskottchen in die Sporthalle fallen lassen
+    - Você derrubou o mascote do time na académica
+    - Hai lasciato cadere la mascotte della squadra in palestra
+    - Con chim có cảnh đã rớt xuống phòng thể dục
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: nun_start_pray
+    TermType: 0
+    Description:
+    Languages:
+    - The nun will be praying for {0} seconds
+    - La monja estará rezando durante 20 segundos
+    - Монахиня будет молиться {0} секунд
+    - 修女将祈祷 {0} 秒钟
+    - La religieuse va prier pendant {0} secondes
+    - Die Nonne wird für {0} Sekunden beten
+    - A freira vai rezar por {0} segundos
+    - La suora pregherà per {0} secondi
+    - Bà sơ cầu nguyện {0} giây
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: skeleton_set_object
+    TermType: 0
+    Description:
+    Languages:
+    - Object placed {0}
+    - Objeto colocado {0}
+    - Объект размещен {0}
+    - 已安装 {0}
+    - Objet placé {0}
+    - Objekt platziert {0}
+    - Objeto colocado {0}
+    - Oggetto posto {0}
+    - Nhiệm vụ {0}
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: skeleton_set_object_fail
+    TermType: 0
+    Description:
+    Languages:
+    - This object can not be placed there
+    - Este objeto no se puede colocar ahí
+    - Этот объект не может быть размещен тут
+    - 这个物品不能被装在这里
+    - Cet objet ne peut pas être placé là
+    - Das kann hier nicht platziert werden
+    - Este objeto não pode ser colocado aqui
+    - Questo oggetto non può essere posizionato lì
+    - Không thể đặt ở đây
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: skeleton_description
+    TermType: 0
+    Description:
+    Languages:
+    - What if i put something on?
+    - ¿Y si le pongo algo encima?
+    - Мне нужно что-то надеть на него?
+    - 如果我在这里装些东西会怎样？
+    - Et si je lui mets quelque chose?
+    - Was wenn ich etwas darauf platziere?
+    - E se eu colocar alguma coisa?
+    - Cosa succede se metto qualcosa?
+    - Nếu đặt thứ gì đó bào thì sao?
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: skeleton_completed
+    TermType: 0
+    Description:
+    Languages:
+    - The skeleton is already completed. It looks like the devil
+    - El esqueleto ya está completo. Se parece al diablo.
+    - Скелет готов. Он похож на дьявола.
+    - 骨架装好了，看起来像个恶魔
+    - Le squelette est déjà complet. Cela ressemble au diable.
+    - Das Skelett ist schon vervollständigt. Es sieht aus wie der Teufel
+    - O esqueleto já esta completo. parece com o demonio
+    - Lo scheletro è già completato. Sembra il diavolo
+    - Hoàn thành rồi. Đây là QUỶ?
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: key_closed
+    TermType: 0
+    Description:
+    Languages:
+    - It's closed with key
+    - Está cerrado con llave
+    - Закрыто
+    - 被钥匙锁上了
+    - Il est verrouillé
+    - Sie ist mit einem Schlüssel verschlossen
+    - Esta trancada com uma chave
+    - È chiuso con chiave
+    - Cửa bị khóa rồi!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: need_hammer
+    TermType: 0
+    Description:
+    Languages:
+    - You need a crowbar to remove it
+    - Necesitas una palanca para quitarlo
+    - Тебе нужен лом, чтобы убрать его
+    - 你需要找个撬棍来将它撬开
+    - Vous avez besoin d'un levier pour l'enlever
+    - Du brauchst ein Brecheisen, um dies zu entfernen
+    - Você prescisa do pé de cabra pára remover isto
+    - Hai bisogno di un piede di porco per rimuoverlo
+    - Bạn cần xà beng để phá
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cant_remove
+    TermType: 0
+    Description:
+    Languages:
+    - It can't be removed. Something is holding it
+    - No se puede retirar. Parece que algo lo sujeta
+    - Ее нельзя убрать, что-то держит
+    - 无法弄开，有东西正在拖住它
+    - Il ne peut pas être enlevé. Il semble que quelque chose tienne
+    - Dies kann nicht entfernt werden. Etwas hält es fest
+    - Não pode ser removido. Alguma coisa esta segurando
+    - Non può essere rimosso. Qualcosa lo sta trattenendo
+    - Bạn cần gì đó để phá
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: need_master_key
+    TermType: 0
+    Description:
+    Languages:
+    - You need the master key
+    - Necesito la llave maestra
+    - Тебе нужен мастер-ключ
+    - 你需要万能钥匙
+    - J'ai besoin de la clé principale
+    - Du brauchst den Hauptschlüssel
+    - Você prescisa da chave mestra
+    - Ho bisogno della chiave principale
+    - Bạn cần chìa khóa cửa chính
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: radio_dont_work
+    TermType: 0
+    Description:
+    Languages:
+    - Not working anymore
+    - Ya no funciona
+    - Он больше не работает
+    - 无法使用
+    - Ça ne marche plus
+    - Funktioniert nicht mehr
+    - Não esta mais funcionando
+    - Non funziona più
+    - Không hoạt động
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: locker_need_code
+    TermType: 0
+    Description:
+    Languages:
+    - You need a secret code to open it
+    - Necesitas un código para abrirla
+    - Тебе нужен код для его открытия.
+    - 你需要密码才能打开它
+    - Vous avez besoin d'un code pour l'ouvrir
+    - Du brauchst zum Öffnen einen geheimen Code
+    - Você prescisa de um codigo secreto para abrir
+    - Hai bisogno di un codice segreto per aprirlo
+    - Bạn cần mật mã
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: blocked
+    TermType: 0
+    Description:
+    Languages:
+    - It's blocked
+    - Está bloqueado
+    - Он заблокирован
+    - 打不开
+    - Il est bloqué
+    - Blockiert
+    - Esta bloqueado
+    - È bloccato
+    - Bị khóa
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: metal_blind_look
+    TermType: 0
+    Description:
+    Languages:
+    - It's an automatic blind. There must be a switch that activates it
+    - Es una persiana automática. Debe haber un interruptor que la active
+    - Это автоматические ролеты. Должен быть переключатель, который включает их
+    - 这个百叶窗是电动的，这里一定有个能打开它的开关
+    - C'est un store automatique. Il doit y avoir un commutateur qui l'active
+    - Das sind automatische Rolladen. Es muss einen Schalter zum Aktivieren geben
+    - É uma porta automatica. Deve ter um interruptor que o ligue
+    - È un cieco automatico. Deve esserci un interruttore che lo attiva
+    - Đây là cửa kéo tự động. Cần tìm cách mở nó.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: window_tip
+    TermType: 0
+    Description:
+    Languages:
+    - It seems that from that window you can see the gym
+    - Parece que desde esa ventana te puedes asomar al gimnasio
+    - Кажется, что из этого окна можно попасть в спортзал
+    - 从窗户似乎能看到体育馆
+    - Il semble que de cette fenêtre, vous pouvez aller à la gym
+    - Du kannst von dort die Sporthalle sehen
+    - Parece que pela jalena você pode ver a académica
+    - Sembra che da quella finestra puoi vedere la palestra
+    - Ngoài cửa sổ có gì đó
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: left_school
+    TermType: 0
+    Description:
+    Languages:
+    - You have left the school
+    - Has salido del colegio
+    - Ты сбежал из школы
+    - 你逃出了学校
+    - Vous avez quitté l'école
+    - Du hast die Schule verlassen
+    - Você saiu da escola
+    - Hai lasciato la scuola
+    - Bạn đã thoát khỏi trường học
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: need_safe_key
+    TermType: 0
+    Description:
+    Languages:
+    - Requires the safe box key
+    - Requiere la llave de la caja fuerte
+    - Нужен ключ от сейфа
+    - 需要保险箱钥匙
+    - Nécessite la clé du coffre-fort
+    - Benötigt den Tresorschlüssel
+    - Prescisa da chave do cofre
+    - Richiede la chiave della cassaforte
+    - Cần chìa khóa để mở
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: enter_safe_key
+    TermType: 0
+    Description:
+    Languages:
+    - You have entered the key
+    - Has introducido la llave
+    - Ты вставил ключ
+    - 你插入了钥匙
+    - Vous avez entré la clé
+    - Du hast den Schlüssel benutzt
+    - Você encaixou a chave
+    - Hai inserito la chiave
+    - Đã mở khóa
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: papers_message
+    TermType: 0
+    Description:
+    Languages:
+    - Finally I will take the safe box key with me. I can not risk losing it.
+    - ...Finalmente llevaré conmigo la llave de la caja fuerte. No puedo arriesgarme a perderla.
+    - ... Наконец я возьму ключ к сейфу со мной. Я не могу потерять его.
+    - 我终于能拿到保险箱的钥匙了，绝不能丢掉它
+    - ... Enfin, je prendrai la clé du coffre avec moi. Je ne peux pas risquer de le perdre.
+    - Endlich kann ich den Tresorschlüssel mitnehmen. Ich darf ihn nicht verlieren
+    - Finalmente vou teazer a chave do cofre junto comigo. não posso arriscar perde-lá
+    - Finalmente prenderò la chiave della cassaforte con me. Non posso rischiare di perderlo.
+    - Đã lấy được chìa khóa két sắc. Hãy cẩn thận dùng nó.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: incorrect_code
+    TermType: 0
+    Description:
+    Languages:
+    - The introduced code is not correct
+    - El código introducido no es correcto
+    - Введен неправильный код
+    - 密码不正确
+    - Le code entré n'est pas correct
+    - Der eingegebene Code ist falsch
+    - O código introduzido não esta correto
+    - Il codice introdotto non è corretto
+    - Mật mã không đúng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: correct_code
+    TermType: 0
+    Description:
+    Languages:
+    - The introduced code is correct. The door is opened.
+    - El código introducido es correcto. La puerta está abierta.
+    - Введен правильный код. Дверь открыта.
+    - 密码正确，门被打开了
+    - Le code entré est correct. La porte est ouverte.
+    - Der eingegebene Code ist richtig. Die Tür ist offen
+    - o código introduzido esta correto. A ports esta aberta
+    - Il codice introdotto è corretto. La porta è aperta.
+    - Mật mã chính xác
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: incomplete_code
+    TermType: 0
+    Description:
+    Languages:
+    - The code is not completed
+    - El código no está completo
+    - Код не введен
+    - 密码不完整
+    - Le code n'est pas complet
+    - Der Code ist nicht vollständig
+    - O código não esta completo
+    - Il codice non è stato completato
+    - Mật mã chưa hoàn chỉnh
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: need_code_door
+    TermType: 0
+    Description:
+    Languages:
+    - This door only can be opened with a code
+    - Esta puerta sólo se abre mediante un código
+    - Эта дверь открывается только кодом
+    - 这扇门只能用密码来打开
+    - Cette porte n'est ouverte que par un code
+    - Diese Tür kann nur mit einem Code geöffnet werden
+    - Esta porta só pode ser aberta com um código
+    - Questa porta può essere aperta solo con un codice
+    - Cửa này chỉ mở bằng mật mã
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: bedrooms
+    TermType: 0
+    Description:
+    Languages:
+    - Bedrooms
+    - Dormitorios
+    - Спальня
+    - 卧室
+    - Chambres à coucher
+    - Schlafzimmer
+    - Quartos
+    - Camere da letto
+    - Giường ngủ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: classrooms
+    TermType: 0
+    Description:
+    Languages:
+    - Classrooms
+    - Clases
+    - Классы
+    - 教室
+    - Les cours
+    - Klassenzimmer
+    - Salas
+    - aule
+    - Phòng học
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: changingrooms
+    TermType: 0
+    Description:
+    Languages:
+    - Changing Rooms
+    - Vestuarios
+    - Переодевалка
+    - 更衣室
+    - Vestiaires
+    - Umkleiden
+    - Vestiário
+    - Spogliatoi
+    - Phòng thay đồ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: diningroom
+    TermType: 0
+    Description:
+    Languages:
+    - Dining Room
+    - Comedor
+    - Столовая
+    - 饭厅
+    - Salle à manger
+    - Mensa
+    - Sala de jantar
+    - Sala da pranzo
+    - Phòng ăn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: kitchen
+    TermType: 0
+    Description:
+    Languages:
+    - Kitchen
+    - Cocina
+    - Кухня
+    - 厨房
+    - Cuisine
+    - Küche
+    - Cozinha
+    - Cucina
+    - Nhà bếp
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gym
+    TermType: 0
+    Description:
+    Languages:
+    - Gym
+    - Gimnasio
+    - Спортзал
+    - 体育馆
+    - Gymnase
+    - Sporthalle
+    - Académica
+    - Palestra
+    - Phòng thể dục
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: elevator_broken
+    TermType: 0
+    Description:
+    Languages:
+    - The mechanism is rusty. It could be fixed in some way ...
+    - El mecanismo está oxidado. Podría arreglarse de algun modo...
+    - Механизм ржавый. Его нужно как-то починить
+    - 这个零件生锈了，但是一定有方法修好它……
+    - Le mécanisme est rouillé. Il pourrait être réparé d'une certaine manière ...
+    - Der Mechanismus ist verrostet. Irgendwie könnte er repariert werden...
+    - O mecanismo esta enferrujado. Deve ter um jeito de arrumar...
+    - Il meccanismo è arrugginito. Potrebbe essere risolto in qualche modo ...
+    - Bánh răng đã bị gỉ. Tìm cách nào đó để sửa nó.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: elevator_works
+    TermType: 0
+    Description:
+    Languages:
+    - The mechanism works correctly
+    - El mecanismo funciona correctamente
+    - Механизм работает правильно
+    - 零件能正确使用
+    - Le mécanisme fonctionne correctement
+    - Der Mechanismus funktioniert richtig
+    - O mecanismo funciona corretamente
+    - Il meccanismo funziona correttamente
+    - Máy đã hoạt động lại bình thường.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: elevator_items_amount
+    TermType: 0
+    Description:
+    Languages:
+    - 'Objects count in the elevator: {0}'
+    - 'Número de objetos en el ascensor: {0}'
+    - 'Обьектов в лифте: {0}'
+    - 电梯内物品数量： {0} 件
+    - 'Nombre d''objets dans l''ascenseur: {0}'
+    - 'Anzahl der Gegenstände im Aufzug: {0}'
+    - 'Objetos contado no elevador: {0}'
+    - oggetti nell'ascensore
+    - 'Vật dụng cần thiết: {0}'
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: elevator_item_advice
+    TermType: 0
+    Description:
+    Languages:
+    - I should not leave this object there
+    - No deberia dejar este objeto ahí
+    - Я не должен оставлять этот тут
+    - 我不该把这个物品丢在那里
+    - Je ne devrais pas laisser cet objet là
+    - Ich sollte dieses Objekt nicht zurücklassen
+    - Eu não devo deixar este objeto aqui
+    - Non dovrei lasciare questo oggetto lì
+    - Tôi không nên để vật này ở đó.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: elevator_fix_weight
+    TermType: 0
+    Description:
+    Languages:
+    - By introducing so much weight it has unblocked the elevator mechanism
+    - Al introducir tanto peso se ha desatascado el mecanismo del ascensor
+    - Введя такой большой вес, подъемный механизм был пропущен
+    - 通过引入这么大的重量，已经消除了电梯零件的阻塞
+    - En introduisant autant de poids, le mécanisme de levage a été désengagé
+    - Mit so viel Last lässt sich der Mechanismus im Aufzug freigeben
+    - Ao introduzir tanto peso, desbloqueou o mecanismo do elevador
+    - Introducendo così tanto peso ha sbloccato il meccanismo dell'ascensore
+    - Chưa đủ trọng lượng để khởi động thang máy.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: elevator_fix_oil
+    TermType: 0
+    Description:
+    Languages:
+    - You have used the oil in the gear system. Now the elevator should work
+    - Has usado el aceite en el sistema de engranajes. Ahora debería funcionar el elevador
+    - Ты смазал шестеренки маслом. Теперь лифт должен работать
+    - 你给齿轮系统涂上了油，现在电梯应该能正常使用了
+    - Vous avez utilisé l'huile dans le système d'engrenage. Maintenant, l'ascenseur devrait fonctionner
+    - Du hast das Öl im Getriebe angewendet. Nun sollte der Aufzug funktionieren
+    - Você usou o óleo no sistema de engrenagens. Agora o elevador deve funcionar
+    - Hai usato l'olio nel sistema di ingranaggi. Ora l'ascensore dovrebbe funzionare
+    - Bánh răng đã được vô nhớt. Thang máy đã có thể hoạt động.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: elevator_on_use
+    TermType: 0
+    Description:
+    Languages:
+    - The elevator will go up in {0} seconds
+    - El elevador volverá a subir en {0} segundos
+    - Через {0} секунд лифт снова поднимется
+    - 电梯将在 {0} 秒内上升
+    - L'ascenseur montera à nouveau dans {0} secondes
+    - Der Aufzug wird in {0} Sekunden hochfahren
+    - O elevador vai subir em {0} segundos
+    - L'ascensore salirà in {0} secondi
+    - Thang máy sẽ quay về trong {0} giây.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: elevator_on_using
+    TermType: 0
+    Description:
+    Languages:
+    - It's in use. We have to wait for it to return to this floor
+    - Está en uso. Hay que esperar a que vuelva a este piso
+    - Лифт едет. Ты должен подождать, пока он вернется на этот этаж
+    - 已经能用了，得等它回到这层楼来
+    - Il est en cours d'utilisation. Nous devons attendre qu'il revienne dans cet appartement
+    - Er ist in Benutzung. Warte, bis er wieder auf deinem Stockwerk ist
+    - Esta sendo usado. Presciso esperar para ele retornar para este andar
+    - È in uso. Dobbiamo aspettare che torni su questo piano
+    - Thang máy đang hoạt động. Chúng ta phải đợi thôi.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: use_locker_code
+    TermType: 0
+    Description:
+    Languages:
+    - You have used locker code
+    - Has usado el código en la taquilla
+    - Ты использовал код для шкафчика
+    - 你使用了储物柜密码
+    - Vous avez utilisé le code au box-office
+    - Du hast den Schließfachcode verwendet
+    - Você usou o código do armário
+    - Hai usato il codice dell'armadietto
+    - Bạn đã sử dụng mã khóa.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: nun_exploded
+    TermType: 0
+    Description:
+    Languages:
+    - The explosion has left the nun unconscious. She will wake up in {0} seconds
+    - La explosion ha dejado a la monja inconsciente. Se despertará en {0} segundos
+    - Взрыв оставил монахиню без сознания. Она проснется через {0} секунд
+    - 爆炸使得修女失去了知觉，她会在 {0} 秒内醒来
+    - L'explosion a laissé la religieuse inconsciente. Vous vous réveillerez dans {0} secondes
+    - Die Explosion hat die Nonne ohnmächtig gemacht. Sie wird in {0} Sekunden aufwachen
+    - A explosão deixou a freira desacordada. Ela vai acordar em {0} segundos
+    - L'esplosione ha lasciato la monaca in stato di incoscienza. Si sveglierà tra {0} secondi
+    - Vụ nổ đã khiến bà ta ngất trong {0} giây
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cardboard_center
+    TermType: 0
+    Description:
+    Languages:
+    - I am {0} and i'm going to be good
+    - Soy {0} y voy a portarme bien
+    - Я {0}, и я буду хорошо себя вести
+    - 我叫 {0} ，一切都会好起来的
+    - Je suis {0} et je vais être bon
+    - Ich bin {0} und ich werde mich benehmen
+    - Eu sou {0} e eu vou ser bom
+    - Sono {0} e starò bene
+    - Tôi là {0} và tôi sẽ ổn.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cardboard_sides
+    TermType: 0
+    Description:
+    Languages:
+    - I have to be good
+    - Hay que ser bueno
+    - Я буду вести себя хорошо
+    - 你得坚强起来
+    - Il faut être bon
+    - Du musst dich benehmen
+    - Você prescisa ser bom
+    - Devi essere buono
+    - Bạn không được làm sao đấy
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: MainFont
+    TermType: 8
+    Description:
+    Languages:
+    - DK Midnight Chalker SDF
+    - DK Midnight Chalker SDF
+    - LEngineer-Regular SDF
+    - chinese SDF
+    - DK Midnight Chalker SDF
+    - DK Midnight Chalker SDF
+    - DK Midnight Chalker SDF
+    - DK Midnight Chalker SDF
+    - LEngineer-Regular SDF
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: quality_high
+    TermType: 0
+    Description:
+    Languages:
+    - High
+    - Alta
+    - Высокая
+    - 高
+    - Haute
+    - Hoch
+    - Alto
+    - alto
+    - Cao
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: quality_low
+    TermType: 0
+    Description:
+    Languages:
+    - Low
+    - Baja
+    - Низкая
+    - 低
+    - Faible
+    - Niedrig
+    - Baixo
+    - Basso
+    - Thấp
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: need_fit_space
+    TermType: 0
+    Description:
+    Languages:
+    - I have nothing that fits in that hole
+    - No tengo nada que encaje en ese hueco
+    - У меня нет ничего подходящего в этой дыре
+    - 我没有适合放在那个洞里的东西
+    - Je n'ai rien qui rentre dans ce trou
+    - Ich habe nichts, was in das Loch passt
+    - Eu não tenho nada que cabe neste buraco
+    - Non ho niente che si adatti a quel buco
+    - Không có gì để lấp đầy cái hố
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: must_be_hidden
+    TermType: 0
+    Description:
+    Languages:
+    - You have to be hidden to use the explosive doll
+    - Tienes que estar escondido para usar la muñeca explosiva
+    - Вы должны быть скрыты, чтобы использовать взрывную куклу
+    - 你得先躲起来才能使用爆炸娃娃
+    - Vous devez être caché pour utiliser la poupée explosive
+    - Um die explosive Puppe zu nutzen, musst du versteckt sein
+    - Você deve estar escondido para usar o boneco explosivo
+    - Devi rimanere nascosto per usare la bambola esplosiva
+    - Bạn cần nơi ẩn nấp khi dùng Búp Bê Thuốc Nổ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: hide_place
+    TermType: 0
+    Description:
+    Languages:
+    - Hiding place
+    - Escondite
+    - Укрытие
+    - 藏匿地
+    - Cache-cache
+    - Versteck
+    - Esconderijo
+    - Nascondiglio
+    - Ẩn nấp
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: TypeWriterFont
+    TermType: 8
+    Description:
+    Languages:
+    - Tox Typewriter SDF
+    - Tox Typewriter SDF
+    - LEngineer-Regular SDF
+    - chinese SDF
+    - Tox Typewriter SDF
+    - Tox Typewriter SDF
+    - Tox Typewriter SDF
+    - Tox Typewriter SDF
+    - LEngineer-Regular SDF
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: degoboom_axe
+    TermType: 0
+    Description:
+    Languages:
+    - Axe of Degoboom
+    - Hacha suculenta
+    - Топор DegoBoom
+    - Degoboom之斧
+    - Hache succulente
+    - Axt von Degoboom
+    - Machado de Degoboom
+    - Ascia di Degoboom
+    - Rìu của Degoboom
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: menu
+    TermType: 0
+    Description:
+    Languages:
+    - Back to menu
+    - Volver al menú
+    - Назад к меню
+    - 回到主菜单
+    - Retour au menu
+    - Zurück ins Menü
+    - Voltar ao menu
+    - Torna al menu
+    - Quay về Menu
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: pedestal
+    TermType: 0
+    Description:
+    Languages:
+    - Pedestal
+    - Pedestal
+    - пьедестал
+    - 底座
+    - Piédestal
+    - Sockel
+    - Pedestal
+    - piedistallo
+    - Bệ đỡ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: bible
+    TermType: 0
+    Description:
+    Languages:
+    - The definitive Bible
+    - La Biblia definitiva
+    - Окончательная Библия
+    - 《圣经》
+    - La Bible définitive
+    - Die endgültige Bibel
+    - A bíblia definitiva
+    - La Bibbia definitiva
+    - Kinh thánh Bible
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: game_over
+    TermType: 0
+    Description:
+    Languages:
+    - Game Over
+    - Has perdido
+    - Игра закончена
+    - 游戏结束
+    - Tu as perdu
+    - Game Over
+    - Fim de jogo
+    - Gioco finito
+    - Trò Chơi Kết Thúc.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: vivids_hat
+    TermType: 0
+    Description:
+    Languages:
+    - Hat of VividPlaysChannel
+    - Gorro de VividPlaysChannel
+    - Шапка VividPlaysChannel
+    - VividPlaysChannel帽子
+    - VividPlaysChannel Cap
+    - Hut von VividPlaysChannel
+    - Hat of VividPlaysChannel
+    - Cappello di VividPlaysChannel
+    - Mũ của VividPlaysChannel
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: chibo_hat
+    TermType: 0
+    Description:
+    Languages:
+    - Hat of Chibo
+    - Gorro de Chibo
+    - Шапка Chibo
+    - Chibo帽子
+    - Chibo Cap
+    - Hut von Chibo
+    - Hat of Chibo
+    - Cappello di Chibo
+    - Mũ của Chibo
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gutin
+    TermType: 0
+    Description:
+    Languages:
+    - Gutin
+    - Gutin
+    - Gutin
+    - 古廷
+    - Gutin
+    - Gutin
+    - Gutin
+    - Gutin
+    - Gutin
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: demon_note
+    TermType: 0
+    Description:
+    Languages:
+    - You are my only lord. I open my heart to you.
+    - Tú eres mi único señor. Te abro a ti mi corazón
+    - Ты мой единственный господин. Я открываю тебе свое сердце
+    - 你是我唯一的主人，我只为你孝心效力。
+    - Tu es mon seul seigneur. Je t'ouvre mon coeur
+    - Du bist mein einziger Herrscher. Ich öffne dir mein Herz.
+    - Você é meu único senhor. Eu abro meu coração para você.
+    - Tu sei il mio unico signore. Ti apro il mio cuore
+    - Người là chua tể. Con nguyện theo người.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cant_take_nun_key
+    TermType: 0
+    Description:
+    Languages:
+    - Now is not the best time
+    - Ahora no es buen momento
+    - Сейчас не хорошее время
+    - 现在不是最佳时机
+    - Ce n'est pas le meilleur moment
+    - Jetzt ist nicht die Zeit dafür
+    - Agora não é a melhor hora
+    - Ora non è il momento migliore
+    - Chưa tới lúc thích hợp.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: clue_elevator
+    TermType: 0
+    Description:
+    Languages:
+    - 'Lost children: We will help you build a weapon if you bring us the right pieces'
+    - 'Niños perdidos: Te ayudaremos a construir un arma si nos traes las piezas correctas'
+    - 'Потерянные дети: мы поможем вам создать оружие, если вы принесете нам правильные куски'
+    - 致迷茫的孩子：只要给我们正确的部件，我们就会帮你打造一件武器。
+    - 'Enfants perdus: nous vous aiderons à construire une arme si vous nous apportez les bonnes pièces'
+    - 'Verlorene Kinder: Wir werden dir helfen, eine Waffe zu bauen, wenn du uns die richtigen Stücke bringst'
+    - 'Crianças perdidas: Nós vamos ajudá-lo a construir uma arma se você nos trouxer as peças certas'
+    - 'Bambini smarriti: ti aiuteremo a costruire un''arma se ci porti i pezzi giusti'
+    - Những đứa trẻ bị mất tích. Hãy mang những vật dụng cần thiết tới đây bạn sẽ có được vũ khí.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: note
+    TermType: 0
+    Description:
+    Languages:
+    - Message
+    - Nota
+    - сообщение
+    - 便笺
+    - Message
+    - Nachricht
+    - Mensagem
+    - Messaggio
+    - Thông điệp
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: kubzscouts_item
+    TermType: 0
+    Description:
+    Languages:
+    - Headphones of Kubzscouts
+    - Auriculares de Kubzscouts
+    - Наушники Kubzscouts
+    - Kubzscouts耳机
+    - Casque d'écoute de Kubzscouts
+    - Kopfhörer von Kubzscouts
+    - Fones de ouvido de Kubzscouts
+    - Cuffie di Kubzscouts
+    - Tai Nghe của Kubzsouts
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: john_item
+    TermType: 0
+    Description:
+    Languages:
+    - Headphones of John Wolfe
+    - Auriculares de John Wolfe
+    - Наушники John Wolfe
+    - John Wolfe耳机
+    - Casque d'écoute de John Wolfe
+    - Kopfhörer von John Wolfe
+    - Fones de ouvido de John Wolfe
+    - Cuffie di John Wolfe
+    - Tai Nghe của John Wolfe
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: feromonas_item
+    TermType: 0
+    Description:
+    Languages:
+    - Headphones of Feromonas
+    - Auriculares de Feromonas
+    - Наушники Feromonas
+    - Feromonas耳机
+    - Casque d'écoute de Feromonas
+    - Kopfhörer von Feromonas
+    - Fones de ouvido de Feromonas
+    - Cuffie di Feromonas
+    - Tai Nghe của Feromonas
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cheese
+    TermType: 0
+    Description:
+    Languages:
+    - Cheese
+    - Queso
+    - Сыр
+    - 奶酪
+    - fromage
+    - Käse
+    - queijo
+    - formaggio
+    - Phô mai
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: library_book1
+    TermType: 0
+    Description:
+    Languages:
+    - The devil is represented with the head of a goat and wings...
+    - Al demonio se le representa con cabeza de cabra y alas...
+    - Дьявол представлен главой козы и крыльями ...
+    - 山羊头和翅膀代表着恶魔…
+    - Le diable est représenté avec la tête d'une chèvre et des ailes ...
+    - Der Teufel ist mit dem Kopf einer Ziege und Flügel dargestellt ...
+    - O diabo é representado com a cabeça de uma cabra e asas ...
+    - Il diavolo è rappresentato con la testa di una capra e le ali ...
+    - Quỷ thường có đầu dê và cánh...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: library_book2
+    TermType: 0
+    Description:
+    Languages:
+    - How to invoke a beast from the underworld...
+    - Cómo invocar una bestia del inframundo...
+    - Как вызвать зверя из подземного мира ...
+    - 如何从阴间召唤一只野兽…
+    - Comment invoquer une bête de la pègre ...
+    - Wie man ein Tier aus der Unterwelt anspricht ...
+    - Como invocar uma fera do submundo ...
+    - Come invocare una bestia dagli inferi ...
+    - Làm thế nào để triệu hồi quái vật từ âm phủ.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: glasses
+    TermType: 0
+    Description:
+    Languages:
+    - Glasses
+    - Gafas
+    - очки
+    - 眼镜
+    - des lunettes
+    - Brille
+    - óculos
+    - occhiali
+    - Mắt kính.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: doll_piece
+    TermType: 0
+    Description:
+    Languages:
+    - Doll
+    - Muñeca
+    - кукла
+    - 娃娃
+    - poupée
+    - Puppe
+    - boneca
+    - bambola
+    - Búp bê
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: manivela_pieza
+    TermType: 0
+    Description:
+    Languages:
+    - Crank
+    - Manivela
+    - кривошип
+    - 曲柄
+    - Kurbel
+    - Aufzieher für die Puppe
+    - Manivela
+    - manovella
+    - Tay quây
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: donate_finish
+    TermType: 0
+    Description:
+    Languages:
+    - Congratulations! You've managed to get out of school! If you liked the game, you can make a small donation to contribute to its development.
+    - Enhorabuena!, has conseguido salir de la escuela! Si te ha gustado el juego, puedes hacernos una pequeña donación para así contribuir en su desarrollo.
+    - Поздравляем, вам удалось выйти из школы! Если вам понравилась игра, вы можете сделать небольшое пожертвование, чтобы внести свой вклад в ее развитие.
+    - 恭喜！你成功逃离了这所学校！如果你喜欢这款游戏，可以为游戏的开发进行捐款，献出一点自己的贡献哦。
+    - Félicitations! Vous avez réussi à sortir de l'école! Si vous avez aimé le jeu, vous pouvez faire un petit don pour contribuer à son développement.
+    - Glückwunsch! Du hast es geschafft, die Schule zu verlassen! Wenn dir das Spiel gefallen hat, kannst du gerne eine kleine Spende leisten, um zu seiner Entwicklung beizutragen.
+    - Parabéns! Você conseguiu sair da escola! Se você gostou do jogo, você pode fazer uma pequena doação para contribuir para o seu desenvolvimento.
+    - Congratulazioni! Sei riuscito a uscire da scuola! Se ti è piaciuto il gioco, puoi fare una piccola donazione per contribuire al suo sviluppo.
+    - Chúc mừng bạn! Bạn đã rời khỏi trường học. Nếu bạn thích trò chơi này thì hãy đóng góp để chúng tôi phát triền trò chơi.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: easy_dif_1
+    TermType: 0
+    Description:
+    Languages:
+    - The nun doesn't run
+    - La monja no corre
+    - Монахиня не бежит
+    - 修女不会奔跑
+    - La nonne ne court pas
+    - Die Nonne rennt nicht
+    - A freira não corre
+    - La suora non corre
+    - Nữ tu không chạy
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: easy_dif_2
+    TermType: 0
+    Description:
+    Languages:
+    - The nun has bad hearing
+    - La monja escucha poco
+    - Монахиня имеет плохой слух
+    - 修女听力不好
+    - La nonne entend mal
+    - Die Nonne kann dich schlecht hören
+    - A freira tem audição ruim
+    - La suora non ascolta bene
+    - Nữ tu có thính giác xấu
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: easy_dif_3
+    TermType: 0
+    Description:
+    Languages:
+    - The nun will start searching you later
+    - La monja tarda en comenzar a buscarte
+    - Монахиня начнет вас искать позже
+    - 修女稍后才来找你
+    - La religieuse commencera à vous chercher plus tard
+    - Die Nonne wird dich später suchen
+    - A freira começará a procurar você mais tarde
+    - La suora inizierà a cercarti più tardi
+    - Nữ tu sẽ bắt đầu tìm kiếm bạn sau
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: normal_dif_1
+    TermType: 0
+    Description:
+    Languages:
+    - The nun walks with normal speed
+    - La monja anda a velocidad normal
+    - Монахиня идет с нормальной скоростью
+    - 修女以正常的速度行走
+    - La religieuse marche à vitesse normale
+    - Die Nonne geht mit normaler Geschwindigkeit
+    - A freira anda com velocidade normal
+    - La suora cammina a velocità normale
+    - Nữ tu đi với tốc độ bình thường
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: normal_dif_2
+    TermType: 0
+    Description:
+    Languages:
+    - The nun has good hearing
+    - La monja tiene buen oído
+    - Монахиня имеет хороший слух
+    - 修女听力正常
+    - La nonne entend bien
+    - Die Nonne hört dich gut
+    - A freira tem boa audição
+    - La suora ha un buon udito
+    - Nữ tu có thính giác tốt
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: hard_dif_1
+    TermType: 0
+    Description:
+    Languages:
+    - The nun is faster
+    - La monja es más rapida
+    - Монахиня быстрее
+    - 修女以更快的速度行走
+    - La nonne est plus rapide
+    - Die Nonne ist schneller
+    - A freira é mais rápida
+    - La suora è più veloce
+    - Nữ tu nhanh hơn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: hard_dif_2
+    TermType: 0
+    Description:
+    Languages:
+    - The nun hears everything
+    - La monja lo oye todo
+    - Монахиня слышит все
+    - 修女能听见一切动静
+    - La religieuse entend tout
+    - Die Nonne hört alles
+    - A freira ouve tudo
+    - La suora sente tutto
+    - Nữ tu nghe mọi thứ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: hard_dif_3
+    TermType: 0
+    Description:
+    Languages:
+    - Your action range is smaller
+    - Tu rango de acción es mas reducido
+    - Ваш диапазон действия меньше
+    - 你的行动范围比较小
+    - Votre gamme d'action est plus petite
+    - Dein Aktionsbereich ist kleiner
+    - Seu alcance de ação é menor
+    - Il tuo raggio d'azione è più piccolo
+    - Phạm vi hành động của bạn nhỏ hơn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: hard_dif_4
+    TermType: 0
+    Description:
+    Languages:
+    - The school is darker
+    - La escuela está más oscura
+    - Школа темнее
+    - 学校内的环境比较黑
+    - L'école est plus sombre
+    - Die Schule ist dunkler
+    - A escola é mais escura
+    - La scuola è più oscura
+    - Ngôi trường tối hơn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: normal_dif_3
+    TermType: 0
+    Description:
+    Languages:
+    - The nun will start searching you since start
+    - La monja comenzará a buscarte desde el principio
+    - Монахиня начнет искать вас с самого начала
+    - 修女从一开始就会来找你
+    - La religieuse commencera à vous chercher depuis le début
+    - Die Nonne wird dich von Anfang an suchen
+    - A freira vai começar a procurar você desde o início
+    - La suora inizierà a cercarti dall'inizio
+    - Nữ tu sẽ bắt đầu tìm kiếm bạn kể từ khi bắt đầu
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: hard_dif_5
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - Máxima dificultad en los puzzles
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial
+    TermType: 0
+    Description:
+    Languages:
+    - tutorial
+    - tutorial
+    - учебник
+    - 显示教程
+    - tutoriel
+    - Tutorial
+    - tutorial
+    - tutoriali
+    - hướng dẫn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: sonido
+    TermType: 0
+    Description:
+    Languages:
+    - sound effects
+    - efectos de sonido
+    - Звуковые эффекты
+    - 音效
+    - effets sonores
+    - Soundeffekte
+    - efeitos sonoros
+    - effetti sonori
+    - hiệu ứng âm thanh
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_0
+    TermType: 0
+    Description:
+    Languages:
+    - I think I should look around before walking forward...
+    - Creo que deberia mirar a los lados antes de avanzar...
+    - Я думаю, мне стоит осмотреться, прежде чем идти вперед ...
+    - 我觉得向前走之前要先环顾一下四周……
+    - Je pense que je devrais regarder autour de moi avant de marcher…
+    - Ich denke, ich sollte mich umsehen, bevor ich vorwärts gehe ...
+    - Eu acho que deveria dar uma olhada antes de andar para frente ...
+    - Penso che dovrei guardarmi intorno prima di andare avanti ...
+    - Tôi nghĩ tôi nên nhìn xung quanh trước khi đi về phía trước ...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_1
+    TermType: 0
+    Description:
+    Languages:
+    - Great! Touching on the right side of the screen I look around
+    - ¡Genial! Tocando sobre el lado derecho de la pantalla miro alrededor
+    - Большой! Прикоснувшись к правой стороне экрана, я оглядываюсь
+    - 太棒了！触摸屏幕的右侧来环顾四周
+    - Génial! Toucher sur le côté droit de l'écran, je regarde autour de moi
+    - Wische über die rechte Seite des Bildschirms, um dich umzusehen
+    - Ótimo! Tocando no lado direito da tela eu olho em volta
+    - Grande! Toccando sul lato destro dello schermo mi guardo intorno
+    - Tuyệt quá! Chạm vào phía bên phải của màn hình tôi nhìn xung quanh
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_2
+    TermType: 0
+    Description:
+    Languages:
+    - Now I'm going to move forward a little...
+    - Ahora voy a avanzar un poco...
+    - Теперь я немного продвинусь ...
+    - 现在我要向前走一点点......
+    - Maintenant je vais avancer un peu ...
+    - Jetzt werde ich ein wenig vorwärts gehen ...
+    - Agora eu vou avançar um pouco ...
+    - Ora ho l'intenzione di andare avanti un po '...
+    - Bây giờ tôi sẽ tiến lên một chút ...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_3
+    TermType: 0
+    Description:
+    Languages:
+    - So easy! I can walk using the joystick
+    - ¡Qué fácil! Con el joystick puedo desplazarme
+    - Так легко! Я могу ходить с помощью джойстика
+    - 简单！ 我可以用虚拟操纵杆来行走
+    - Si facile! Je peux marcher en utilisant le joystick
+    - So einfach! Ich kann mit dem Joystick laufen
+    - Tão fácil! Eu posso andar usando o joystick
+    - Così facile! Posso camminare usando il joystick
+    - Quá dễ! Tôi có thể đi bộ bằng cách sử dụng cần điều khiển
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_4
+    TermType: 0
+    Description:
+    Languages:
+    - Maybe I could need to crouch...
+    - Tal vez podría necesitar agacharme...
+    - Может быть, мне может понадобиться приседать ...
+    - 也许我需要蹲下来......
+    - Peut-être que je pourrais avoir besoin de m'accroupir ...
+    - Wahrscheinlich muss ich mich hier irgendwie ducken ...
+    - Talvez eu precise agachar ...
+    - Forse potrei aver bisogno di rannicchiarmi ...
+    - Có lẽ tôi có thể cần phải crouch ...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_5
+    TermType: 0
+    Description:
+    Languages:
+    - Perfect! By pressing that button I can crouch or stand up
+    - ¡Perfecto! Pulsando ese botón puedo agacharme o levantarme
+    - Отлично! Нажимая эту кнопку, я могу припасть или встать
+    - 完美！ 通过按下这个按钮，我就可以蹲下或者站起来
+    - Parfait! En appuyant sur ce bouton, je peux m'accroupir ou me lever
+    - Perfekt! Durch Drücken dieses Knopfes kann ich mich ducken oder aufstehen
+    - Perfeito! Pressionando esse botão eu posso agachar ou levantar
+    - Perfetto! Premendo quel pulsante posso rannicchiarmi o alzarmi in piedi
+    - Hoàn hảo! Bằng cách nhấn nút đó tôi có thể cúi mình hoặc đứng dậy
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_6
+    TermType: 0
+    Description:
+    Languages:
+    - It seems you can open that door, tap the button to interact!
+    - Parece que puedes abrir esa puerta, ¡toca el botón para interactuar!
+    - Кажется, вы можете открыть эту дверь, нажать кнопку, чтобы взаимодействовать!
+    - 你可以通过轻按按键与那扇门进行互动，来把它打开
+    - Il semble que vous pouvez ouvrir cette porte, appuyez sur le bouton pour interagir!
+    - Es scheint, dass du diese Tür öffnen kannst. Tippe auf den Knopf, um zu interagieren!
+    - Parece que você pode abrir essa porta, toque no botão para interagir!
+    - Sembra che tu possa aprire quella porta, tocca il pulsante per interagire!
+    - Có vẻ như bạn có thể mở cánh cửa đó, chạm vào nút để tương tác!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_7
+    TermType: 0
+    Description:
+    Languages:
+    - Using this button I can interact with the environment. Cool!
+    - Usando este botón puedo interactuar con el entorno. ¡Entendido!
+    - Используя эту кнопку, я могу взаимодействовать с окружающей средой. Это понятно!
+    - 通过点击按键，可以与环境进行交互
+    - En utilisant ce bouton, je peux interagir avec l'environnement. C'est compris!
+    - Mit dem Knopf kann ich mit allem in meiner Umgebung interagieren
+    - Usando este botão, posso interagir com o ambiente. Entende-se!
+    - Usando questo pulsante posso interagire con l'ambiente. E 'inteso!
+    - Sử dụng nút này tôi có thể tương tác với môi trường. Nó được hiểu!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_8
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_9
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_10
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tutorial_11
+    TermType: 0
+    Description:
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: story_0
+    TermType: 0
+    Description:
+    Languages:
+    - The summer camp is very fun. I had never been in one, because my parents do not have much money. I'm making lots of friends and if we wash clothes fast, we always have a prize. She is good, she treats us very well. From time to time she lets us look through a small hole where we see birds. They are beautiful creatures. Although sometimes they sing very loudly and we have to silence them. The meat of the birds is not very good.
+    - El campamento de verano es muy divertido. Nunca había estado en uno, porque mis padres no tienen mucho dinero. Estoy haciendo muchos amigos y si lavamos la ropa rápido, siempre tenemos premio. Ella es buena, nos trata muy bien. De vez en cuando nos deja mirar por un pequeño agujero por donde vemos pájaros. Son bonitas criaturas. Aunque a veces cantan muy alto y los tenemos que hacer callar. La carne de los pájaros no está muy buena.
+    - Летний лагерь очень забавный. Я никогда не был в одном, потому что у моих родителей не так много денег. У меня много друзей, и если мы быстро стираем одежду, у нас всегда есть приз. Она хороша, она очень хорошо относится к нам. Время от времени она позволяет нам заглянуть в маленькую дыру, где мы видим птиц. Они прекрасные существа. Хотя иногда они поют очень громко, и мы вынуждены их замолчать. Мясо птиц не очень хорошее.
+    - 夏令营非常有趣，因为我父母并不是非常富裕，所以我以前也从来没有参加过一次夏令营。我在这里交到了很多朋友，并且如果我们衣服洗得快的话，就总是能得到一份奖励。她人非常好，对我们也不错。她不时地让我们透过一个小孔看鸟。鸟儿是非常美丽的生物。然而它们有时唱歌唱得非常大声，因此我们不得不“让”它们安静。鸟肉并不是很好吃。
+    - Le camp d'été est très amusant. Je n'y étais jamais allé parce que mes parents n'ont pas beaucoup d'argent. Je me fais beaucoup d'amis et si nous laissons nos vêtements rapidement, nous avons toujours un prix. Elle est bonne, elle nous traite très bien. De temps en temps, elle nous laisse regarder à travers un petit trou où nous voyons des oiseaux. Ce sont de belles créatures. Bien que parfois ils chantent très fort et nous devons les faire taire. La viande des oiseaux n'est pas très bonne.
+    - Das Sommercamp macht sehr viel Spaß. Ich war noch nie in einem, weil meine Eltern nicht viel Geld haben. Ich lerne viele neue Freunde kennen, und wenn wir uns schnell waschen, bekommen wir immer eine kleine Belohnung. Sie ist toll, sie behandelt uns sehr gut. Von Zeit zu Zeit lässt sie uns durch ein kleines Loch schauen, wo wir Vögel sehen. Sie sind schöne Kreaturen. Manchmal singen sie sehr laut und wir müssen sie zum Schweigen bringen. Das Fleisch der Vögel ist nicht sehr lecker...
+    - O acampamento de verão é muito divertido. Eu nunca fui em um porque meus pais não têm muito dinheiro. Estou fazendo muitos amigos e se lavarmos roupas rapidamente, sempre temos um prêmio. Ela é boa, ela nos trata muito bem. De vez em quando ela nos deixa olhar através de um pequeno buraco onde vemos pássaros. Eles são criaturas lindas. Embora às vezes eles cantam muito alto e nós temos que silenciá-los. A carne dos pássaros não é muito boa.
+    - Il campo estivo è molto divertente. Non ero mai stato in uno, perché i miei genitori non hanno molti soldi. Sto facendo molti amici e se laviamo vestiti velocemente, abbiamo sempre un premio. Lei è brava, ci tratta molto bene. Di tanto in tanto ci lascia guardare attraverso un piccolo foro dove vediamo gli uccelli. Sono belle creature. Anche se a volte cantano molto forte e dobbiamo metterli a tacere. La carne degli uccelli non è molto buona.
+    - Trại hè rất vui. Tôi chưa bao giờ ở trong một, vì bố mẹ tôi không có nhiều tiền. Tôi đang làm rất nhiều bạn và nếu chúng ta giặt quần áo nhanh, chúng tôi luôn có một giải thưởng. Cô ấy tốt, cô ấy đối xử tốt với chúng tôi. Thỉnh thoảng cô ấy cho phép chúng tôi nhìn qua một lỗ nhỏ nơi chúng tôi nhìn thấy chim. Họ là những sinh vật xinh đẹp. Mặc dù đôi khi họ hát rất to và chúng tôi phải im lặng họ. Thịt của các loài chim không phải là rất tốt.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: story_1
+    TermType: 0
+    Description:
+    Languages:
+    - The summer camp is very fun. I had never been in one, because my parents do not have much money. I'm making lots of friends and if we wash clothes fast, we always have a prize. She is good, she treats us very well. From time to time she lets us look through a small hole where we see birds. They are beautiful creatures. Although sometimes they sing very loudly and we have to silence them. The meat of the birds is not very good.
+    - El campamento de verano es muy divertido. Nunca había estado en uno, porque mis padres no tienen mucho dinero. Estoy haciendo muchos amigos y si lavamos la ropa rápido, siempre tenemos premio. Ella es buena, nos trata muy bien. De vez en cuando nos deja mirar por un pequeño agujero por donde vemos pájaros. Son bonitas criaturas. Aunque a veces cantan muy alto y los tenemos que hacer callar. La carne de los pájaros no está muy buena.
+    - Летний лагерь очень забавный. Я никогда не был в одном, потому что у моих родителей не так много денег. У меня много друзей, и если мы быстро стираем одежду, у нас всегда есть приз. Она хороша, она очень хорошо относится к нам. Время от времени она позволяет нам заглянуть в маленькую дыру, где мы видим птиц. Они прекрасные существа. Хотя иногда они поют очень громко, и мы вынуждены их замолчать. Мясо птиц не очень хорошее.
+    - 夏令营非常有趣，因为我父母并不是非常富裕，所以我以前也从来没有参加过一次夏令营。我在这里交到了很多朋友，并且如果我们衣服洗得快的话，就总是能得到一份奖励。她人非常好，对我们也不错。她不时地让我们透过一个小孔看鸟。鸟儿是非常美丽的生物。然而它们有时唱歌唱得非常大声，因此我们不得不“让”它们安静。鸟肉并不是很好吃。
+    - Le camp d'été est très amusant. Je n'y étais jamais allé parce que mes parents n'ont pas beaucoup d'argent. Je me fais beaucoup d'amis et si nous laissons nos vêtements rapidement, nous avons toujours un prix. Elle est bonne, elle nous traite très bien. De temps en temps, elle nous laisse regarder à travers un petit trou où nous voyons des oiseaux. Ce sont de belles créatures. Bien que parfois ils chantent très fort et nous devons les faire taire. La viande des oiseaux n'est pas très bonne.
+    - Das Sommercamp macht sehr viel Spaß. Ich war noch nie in einem, weil meine Eltern nicht viel Geld haben. Ich lerne viele neue Freunde kennen, und wenn wir uns schnell waschen, bekommen wir immer eine kleine Belohnung. Sie ist toll, sie behandelt uns sehr gut. Von Zeit zu Zeit lässt sie uns durch ein kleines Loch schauen, wo wir Vögel sehen. Sie sind schöne Kreaturen. Manchmal singen sie sehr laut und wir müssen sie zum Schweigen bringen. Das Fleisch der Vögel ist nicht sehr lecker...
+    - O acampamento de verão é muito divertido. Eu nunca fui em um porque meus pais não têm muito dinheiro. Estou fazendo muitos amigos e se lavarmos roupas rapidamente, sempre temos um prêmio. Ela é boa, ela nos trata muito bem. De vez em quando ela nos deixa olhar através de um pequeno buraco onde vemos pássaros. Eles são criaturas lindas. Embora às vezes eles cantam muito alto e nós temos que silenciá-los. A carne dos pássaros não é muito boa.
+    - Il campo estivo è molto divertente. Non ero mai stato in uno, perché i miei genitori non hanno molti soldi. Sto facendo molti amici e se laviamo vestiti velocemente, abbiamo sempre un premio. Lei è brava, ci tratta molto bene. Di tanto in tanto ci lascia guardare attraverso un piccolo foro dove vediamo gli uccelli. Sono belle creature. Anche se a volte cantano molto forte e dobbiamo metterli a tacere. La carne degli uccelli non è molto buona.
+    - Trại hè rất vui. Tôi chưa bao giờ ở trong một, vì bố mẹ tôi không có nhiều tiền. Tôi đang làm rất nhiều bạn và nếu chúng ta giặt quần áo nhanh, chúng tôi luôn có một giải thưởng. Cô ấy tốt, cô ấy đối xử tốt với chúng tôi. Thỉnh thoảng cô ấy cho phép chúng tôi nhìn qua một lỗ nhỏ nơi chúng tôi nhìn thấy chim. Họ là những sinh vật xinh đẹp. Mặc dù đôi khi họ hát rất to và chúng tôi phải im lặng họ. Thịt của các loài chim không phải là rất tốt.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: story_2
+    TermType: 0
+    Description:
+    Languages:
+    - Sometimes I am bored. A friend and I usually spend our time pushing chairs and moving things from one place to another. Once we built a very tall tower with boxes that reached the roof of the laundry. It was so high that the child with blue hands scaled it and escaped from the laundry through a hole in the roof. Dad, mom, I wish you had seen what a beautiful tower I built ...
+    - A veces me aburro. Un amigo y yo solemos pasar el tiempo empujando sillas y moviendo cosas de un lado para otro. Una vez construimos una torre muy alta con cajas que llegaba hasta el techo de la lavandería. Era tan alta que el niño de las manos azules escaló por ella y escapó de la lavandería a través de un agujero del techo. Papá, mamá, ojalá hubierais visto que torre más hermosa construí…
+    - Иногда мне скучно. Мы с другом обычно проводим время, отталкивая стулья и перемещая вещи из одного места в другое. Однажды мы построили очень высокую башню с коробками, которые доходили до крыши прачечной. Он был настолько высок, что ребенок с синими руками масштабировал его и убежал из прачечной через отверстие в крыше. Папа, мама, мне жаль, что ты не видел, какую красивую башню я построил ...
+    - 有时候我很无聊，我就经常和一个朋友把时间花在推动椅子和把物品拿走又放回到原来的位置上。有一次我们用箱子叠了一座非常高的“塔”，都能碰到洗衣间的天花板了。那座“塔”非常地高，一些双手发蓝的孩子爬上去后，就从天花板上的一个洞逃出去了。爸爸妈妈，我多么希望你们能看到我打造的那座美丽的“塔”啊……
+    - Parfois je m'ennuie. Un ami et moi passons habituellement notre temps à pousser des chaises et à déplacer des objets d’un endroit à un autre. Une fois, nous avons construit une très grande tour avec des boîtes qui ont atteint le toit de la buanderie. C'était tellement haut que l'enfant aux mains bleues l'a escaladé et s'est échappé du linge à travers un trou dans le toit. Papa, maman, j'aurais aimé que tu aies vu quelle belle tour j'ai construite ...
+    - Manchmal bin ich gelangweilt. Ein Freund und ich verbringen unsere Zeit damit, Stühle zu schieben und Dinge von einem Ort zum anderen zu bewegen. Einmal bauten wir einen sehr hohen Turm mit Kisten, die das Dach der Wäscherei erreichten. Es war so hoch, dass das Kind mit blauen Händen es kapiert und durch ein Loch im Dach aus der Wäscherei entkommen konnte. Papa, Mama, ich wünschte, ihr hättet gesehen, was für einen schönen Turm ich gebaut habe ...
+    - Às vezes estou entediado. Um amigo e eu geralmente passamos o nosso tempo empurrando cadeiras e movendo as coisas de um lugar para outro. Uma vez construímos uma torre muito alta com caixas que chegavam ao teto da lavanderia. Era tão alto que a criança de mãos azuis escalou e escapou da lavanderia por um buraco no telhado. Pai, mãe, eu queria que você tivesse visto a linda torre que eu construí ...
+    - A volte sono annoiato. Un mio amico e io di solito passiamo il tempo a spingere sedie e spostare le cose da un posto all'altro. Una volta costruimmo una torre molto alta con scatole che raggiungevano il tetto della lavanderia. Era così alto che il bambino con le mani blu lo ridimensionò e fuggì dal bucato attraverso un buco nel tetto. Papà, mamma, vorrei che voi avete visto che bella torre che ho costruito ...
+    - Đôi khi tôi chán. Một người bạn và tôi thường dành thời gian của chúng tôi đẩy ghế và di chuyển mọi thứ từ nơi này sang nơi khác. Một khi chúng tôi xây một cái tháp rất cao với những chiếc hộp lên đến đỉnh của quần áo. Nó cao đến mức đứa trẻ với đôi bàn tay màu xanh co lại và thoát khỏi đồ giặt qua một lỗ trên mái nhà. Bố, mẹ ơi, con ước gì con đã thấy một cái tháp đẹp mà con xây ...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: story_3
+    TermType: 0
+    Description:
+    Languages:
+    - She is tall and thin. It smells a little weird, but you get used to it quickly. With the mask that we all have, we are not bothered by the smells. All day long, she's wandering around school, looking for bad kids. Surely someone knows why she does that. Here below we are many. Some cry for days and others are very quiet
+    - Ella es alta y flaca. Huele un poco raro, pero te acostumbras rápido. Con la máscara que tenemos todos, no nos molestan los olores. Todo el día, ella está dando vueltas por la escuela, buscado a niños malos. Seguro que alguien sabe porqué hace eso. Aquí abajo somos muchos. Algunos lloran durante días enteros y otros están muy quietos
+    - Она высокая и стройная. Он пахнет немного странно, но вы привыкаете к нему быстро. С маской, которую мы все имеем, нас не беспокоят запахи. Весь день она блуждает по школе, ищет плохих детей. Конечно, кто-то знает, почему она это делает. Здесь ниже нас много. Кто-то плачет днями, а другие очень тихие
+    - 她又高又瘦，身上有种奇怪的味道，但是你很快就能够适应。我们所有人戴着自己都有的面具，就闻不到她身上的那种味道了。她一天到晚都在校园内闲逛，寻找是否有做坏事的孩子。当然有人知道她为什么要那样做。在下面有很多人，一些人不停地在哭，而其他人就都非常地安静。
+    - Elle est grande et mince. Ça sent un peu bizarre, mais on s'y habitue rapidement. Avec le masque que nous avons tous, nous ne sommes pas dérangés par les odeurs. Toute la journée, elle se promène à l'école, à la recherche de mauvais enfants. Sûrement quelqu'un sait pourquoi elle fait ça. Ci-dessous nous sommes nombreux. Certains pleurent pendant des jours et d'autres sont très calmes
+    - Sie ist groß und schlank. Es riecht etwas komisch, aber man gewöhnt sich schnell daran. Mit den Masken, die wir alle haben, stören uns die Gerüche nicht. Den ganzen Tag läuft sie in der Schule herum und sucht nach "bösen" Kindern. Niemand weiß wirklich, warum sie das macht. Hier unten sind wir viele. Manche weinen seit Tagen und andere sind sehr leise
+    - Ela é alta e magra. Cheira um pouco estranho, mas você se acostuma rapidamente. Com a máscara que todos nós temos, não somos incomodados pelos cheiros. O dia todo, ela está vagando pela escola, procurando por crianças más. Certamente alguém sabe por que ela faz isso. Aqui abaixo somos muitos. Alguns choram por dias e outros são muito quietos
+    - Lei è alta e magra. Ha un odore un po' strano, ma ti ci abitui velocemente. Con la maschera che tutti abbiamo, non siamo infastiditi dagli odori. Tutto il giorno, gira per la scuola, cercando bambini cattivi. Sicuramente qualcuno sa perché lo fa. Qui sotto siamo molti. Alcuni piangono per giorni e altri sono molto silenziosi
+    - Cô ấy cao và gầy. Nó có mùi hơi lạ, nhưng bạn đã quen với nó một cách nhanh chóng. Với mặt nạ mà tất cả chúng ta đều có, chúng ta không bị làm phiền bởi mùi. Suốt cả ngày, cô ấy lang thang quanh trường, tìm kiếm những đứa trẻ xấu. Chắc chắn ai đó biết tại sao cô ấy làm điều đó. Dưới đây chúng tôi rất nhiều. Một số khóc trong nhiều ngày và những người khác thì rất yên tĩnh
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: story_4
+    TermType: 0
+    Description:
+    Languages:
+    - The laundry is small and we are more and more children here. Since I stained my hands with paint they do not let me touch anything. I want to go out, I want to take off this mask that does not let me breathe well. I do not want to see how that stupid nun kidnaps more children. I wish someone read this ... I want to go home.
+    - La lavandería es pequeña y cada vez somos más niños aquí. Desde que me manché las manos con pintura ya no me dejan tocar nada. Quiero salir, quiero quitarme esta máscara que no me deja respirar bien. No quiero ver como esa monja estupida rapta a más niños. Ojalá alguien lea esto… Quiero volver a casa.
+    - Прачечная небольшая, и мы все больше и больше детей здесь. Поскольку я окрашивал руки краской, они не позволяли мне ничего касаться. Я хочу выйти, я хочу снять эту маску, которая не позволяет мне хорошо дышать. Я не хочу видеть, как эта глупая монахиня похищает больше детей. Я хочу, чтобы кто-то прочитал это ... Я хочу пойти домой.
+    - 洗衣间非常小，这里的聚集的孩子越来越多了。因为我的手弄上了颜料，他们不让我碰任何东西。我想出去，我想摘下这幅让我不能好好呼吸的面具。我不想再看到那愚蠢的修女再绑架更多的孩子了。我希望有人能读到我写的这些……我想回家。
+    - La lessive est petite et nous sommes de plus en plus d'enfants ici. Depuis que je tache mes mains avec de la peinture, ils ne me laissent rien toucher. Je veux sortir, je veux enlever ce masque qui ne me laisse pas bien respirer. Je ne veux pas voir comment cette sœur stupide kidnappe plus d'enfants. Je souhaite que quelqu'un lise ceci ... Je veux rentrer à la maison.
+    - Die Wäscherei ist klein, und wir werden mehr und mehr Kinder hier. Da meine Hände mit Farbe befleckt sind, lassen sie mich nichts anfassen. Ich möchte raus, ich möchte diese Maske ausziehen, die mich nicht gut atmen lässt. Ich will nicht sehen, wie diese dumme Nonne noch mehr Kinder entführt. Ich wünschte, jemand würde das lesen ... Ich möchte nach Hause gehen.
+    - A roupa é pequena e estamos cada vez mais crianças aqui. Desde que eu manchei minhas mãos com tinta, elas não me deixaram tocar em nada. Eu quero sair, quero tirar essa máscara que não me deixa respirar bem. Eu não quero ver como essa freira estúpida seqüestra mais crianças. Eu desejo que alguém leia isto ... Eu quero ir para casa.
+    - La lavanderia è piccola e noi siamo sempre più bambini qui. Dato che ho macchiato le mie mani con la vernice, non mi permettono di toccare nulla. Voglio uscire, voglio togliermi questa maschera che non mi lascia respirare bene. Non voglio vedere come quella stupida suora rapisce altri bambini. Vorrei che qualcuno lo leggesse ... voglio andare a casa.
+    - Giặt là nhỏ và chúng tôi ngày càng có nhiều trẻ em ở đây. Vì tôi tô màu tay bằng sơn, chúng không để tôi chạm vào bất cứ thứ gì. Tôi muốn đi ra ngoài, tôi muốn cởi bỏ cái mặt nạ này mà không để tôi thở tốt. Tôi không muốn thấy cô gái ngu ngốc đó bắt cóc nhiều đứa trẻ hơn thế nào. Tôi muốn ai đó đọc điều này ... Tôi muốn về nhà.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: story_5
+    TermType: 0
+    Description:
+    Languages:
+    - The masks we have make us more beautiful. At first it is a bit uncomfortable and eating is difficult with it. But that's how we are all the same. Nobody insults me or tells me I'm ugly. I think we all look like a baby with these masks. It's the only way she does not hurt us more. If someday I could get it out of me, I do not know what the consequences would be.
+    - Las máscaras que tenemos nos hacen más guapos. Al principio es un poco incomoda y comer es difícil con ella. Pero así somos todos iguales. Nadie me insulta ni me dice que soy fea. Creo que todos nos parecemos a un bebé con estas caretas. Es la única manera de que no nos haga mas daño. Si algún día consiguiera quitármela, no sé cuales serían las consecuencias.
+    - Маски, которые мы делаем, делают нас красивее. Сначала это немного неудобно, и еда с ним трудна. Но так мы все одинаковы. Никто не оскорбляет меня или не говорит мне, что я уродлив. Я думаю, мы все выглядим как ребенок с этими масками. Это единственный способ, которым она больше не причиняет нам боль. Если когда-нибудь я смогу вытащить это из меня, я не знаю, каковы будут последствия.
+    - 我们戴上面具后看起来更漂亮。虽然一开始戴着的时候有点不太舒服，吃饭的时候也有些困难。不过大家都是这样的。没有人骂我或是说我丑陋。我觉得戴上面具后我们都像个小宝宝。这是唯一使她不伤害我们的方式。如果有一天我能够把它摘掉，我不知道后果会是什么。
+    - Les masques nous ont rendus plus beaux. Au début, c'est un peu inconfortable et manger est difficile avec ça. Mais c'est comme ça que nous sommes tous pareils. Personne ne m'insulte ou me dit que je suis moche. Je pense que nous avons tous l'air d'un bébé avec ces masques. C'est la seule façon dont elle ne nous fait plus de mal. Si un jour je pouvais le sortir de moi, je ne sais pas quelles seraient les conséquences.
+    - Die Masken, die wir haben, machen uns schöner. Am Anfang ist es ein bisschen unangenehm und essen ist schwer damit. Aber so sind wir alle gleich. Niemand beleidigt mich oder sagt mir, ich bin hässlich. Ich denke, wir alle sehen aus wie ein Baby mit diesen Masken. Nur so verletzt sie uns nicht mehr. Wenn ich es eines Tages aus mir herausholen könnte, weiß ich nicht, welche Konsequenzen das haben würde.
+    - As máscaras que temos nos tornam mais bonitas. No começo é um pouco desconfortável e comer é difícil com isso. Mas é assim que somos todos iguais. Ninguém me insulta ou me diz que sou feia. Acho que todos parecemos um bebê com essas máscaras. É a única maneira que ela não nos machuca mais. Se algum dia eu pudesse tirá-lo de mim, não sei quais seriam as conseqüências.
+    - Le maschere ci rendono più belli. All'inizio è un po 'scomodo e mangiare è difficile. Ma è così che siamo tutti uguali. Nessuno mi insulta o mi dice che sono brutto. Penso che sembriamo tutti un bambino con queste maschere. È l'unico modo in cui non ci fa più male. Se un giorno potessi togliermelo, non so quali sarebbero le conseguenze.
+    - Các mặt nạ chúng tôi đã làm cho chúng ta đẹp hơn. Lúc đầu, hơi khó chịu và khó ăn với nó. Nhưng đó là cách chúng ta giống nhau. Không ai lăng mạ tôi hay nói với tôi tôi xấu. Tôi nghĩ tất cả chúng ta trông giống như một đứa trẻ với những chiếc mặt nạ này. Đó là cách duy nhất cô ấy không làm tổn thương chúng tôi nhiều hơn. Nếu một ngày nào đó tôi có thể lấy nó ra khỏi tôi, tôi không biết hậu quả sẽ là gì.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: story_6
+    TermType: 0
+    Description:
+    Languages:
+    - I thought I was going to a summer camp. I've been here for many days, I think they've lied to me. I do not know if my parents knew where they were bringing me or they were part of this rare story. Now it does not matter much anymore. Although I miss them. Father ... Mother ... The evil nun is now my only family. She does what she can. But she does not know what love is. Not since that misfortune happened ...
+    - Pensaba que iba a un campamento de verano. Llevo muchos días aquí, creo que me han mentido. No se si mis padres sabían a donde me traían o ellos formaban parte de esta historia rara. Ahora ya no importa mucho. Aunque les echo de menos. Padre… Madre… La monja malvada ahora es mi única familia. Ella hace lo que puede. Pero no sabe qué es el amor. No desde que ocurrió esa desgracia...
+    - Я думал, что собираюсь в летний лагерь. Я здесь уже много дней, я думаю, они солгали мне. Я не знаю, знали ли мои родители, куда они меня привезли, или они были частью этой редкой истории. Теперь это не имеет большого значения. Хотя я скучаю по ним. Отец ... Мать ... Злая монахиня - теперь моя единственная семья. Она делает все возможное. Но она не знает, что такое любовь. Не так случилось ...
+    - 我最初以为我来参加的是夏令营。很多天过去了，我感觉他们把我给骗了。我不清楚我的父母是否知道他们要把我带到哪里去，或者他们也参加了这种罕见的事情当中。现在不管这么多了。虽然我还是很想我的爸爸……和妈妈……这名邪恶的修女现在是我唯一的“家人”。她尽其所能。不过在那次不幸发生后，她就忘记爱的含义是什么了……
+    - Je pensais que j'allais dans un camp d'été. Je suis ici depuis plusieurs jours, je pense qu'ils m'ont menti. Je ne sais pas si mes parents savaient où ils m'apportaient ou s'ils faisaient partie de cette histoire rare. Maintenant, ce n'est plus grave. Bien qu'ils me manquent Père ... Mère ... La sœur diabolique est maintenant ma seule famille. Elle fait ce qu'elle peut. Mais elle ne sait pas ce qu'est l'amour. Pas depuis que ce malheur est arrivé ...
+    - Ich dachte, ich würde in ein Sommercamp gehen. Ich bin seit vielen Tagen hier, ich glaube sie haben mich angelogen. Ich weiß nicht, ob meine Eltern wussten, wohin sie mich brachten, oder sie waren Teil dieser seltsamen Geschichte. Jetzt ist es nicht mehr wichtig. Obwohl ich sie vermisse. Vater ... Mutter ... Die böse Nonne ist jetzt meine einzige Familie. Sie tut was sie kann. Aber sie weiß nicht, was Liebe ist. Seit diesem Unglück ist es nicht passiert ...
+    - Eu pensei que estava indo para um acampamento de verão. Eu estive aqui por muitos dias, acho que eles mentiram para mim. Eu não sei se meus pais sabiam onde eles estavam me trazendo ou se faziam parte dessa história rara. Agora isso não importa muito mais. Embora eu sinta falta deles. Pai ... Mãe ... A freira má é agora minha única família. Ela faz o que pode. Mas ela não sabe o que é amor. Não desde que a desgraça aconteceu ...
+    - Pensavo di andare in un campo estivo. Sono qui da molti giorni, penso che mi abbiano mentito. Non so se i miei genitori sapessero dove mi stavano portando o facevano parte di questa rara storia. Ora non importa più molto. Anche se mi mancano. Padre ... Madre ... La suora cattiva è ora la mia unica famiglia. Lei fa quello che può. Ma lei non sa cosa sia l'amore. Non da quando quella disgrazia è accaduta ...
+    - Tôi nghĩ tôi sẽ đến một trại hè. Tôi đã ở đây nhiều ngày, tôi nghĩ họ đã nói dối tôi. Tôi không biết liệu cha mẹ tôi có biết họ mang tôi đến đâu hay họ là một phần của câu chuyện hiếm hoi này. Bây giờ nó không còn quan trọng nữa. Mặc dù tôi nhớ họ. Cha ... Mẹ ... Nữ tu ác bây giờ là gia đình duy nhất của tôi. Cô ấy làm những gì có thể. Nhưng cô ấy không biết tình yêu là gì. Không phải vì sự bất hạnh đó đã xảy ra ...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: show_ads
+    TermType: 0
+    Description:
+    Languages:
+    - Show advertisements
+    - Mostrar anuncios
+    - Показать объявления
+    - 显示广告
+    - Afficher les publicités
+    - Werbung anzeigen
+    - Mostrar anúncios
+    - Mostra pubblicità
+    - Hiển thị quảng cáo
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ads_enabled
+    TermType: 0
+    Description:
+    Languages:
+    - Disable ads for improve the experience!
+    - ¡Desactiva los anuncios para mejorar la experiencia!
+    - Отключите рекламу, чтобы улучшить опыт!
+    - 停用广告以改善游戏体验！
+    - Désactiver les annonces pour améliorer l'expérience!
+    - Deaktivieren Sie Anzeigen, um die Erfahrung zu verbessern!
+    - Desativar anúncios para melhorar a experiência!
+    - Disabilita le pubblicità per migliorare l'esperienza!
+    - Vô hiệu hóa quảng cáo để cải thiện trải nghiệm!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ads_disabled
+    TermType: 0
+    Description:
+    Languages:
+    - Great! Without ads, the experience is much better!
+    - ¡Genial!, ¡Sin anuncios la experiencia es mucho mejor!
+    - Большой! Без рекламы опыт намного лучше!
+    - 太棒了！ 没有广告困扰的游戏体验就好得多了！
+    - Génial! Sans publicité, l'expérience est bien meilleure!
+    - Toll! Ohne Werbung ist alles gleich viel besser!
+    - Ótimo! Sem anúncios, a experiência é muito melhor!
+    - Grande! Senza pubblicità, l'esperienza è megliore!
+    - Tuyệt quá! Nếu không có quảng cáo, trải nghiệm sẽ tốt hơn nhiều!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gdpr_info
+    TermType: 0
+    Description:
+    Languages:
+    - "If you accept, we can show you only advertisements that are of your interest.\n\nFor that, we need to send your ad identifier and other information of interest to our ads partners.\n\nIf you decline, we will show you random advertisements.\n\nYou can change this configuration when you want from the settings of the game."
+    - "Si aceptas, podemos mostrarte sólamente anuncios que pueden ser de tu interés.\n\nPara ello, necesitamos mandar tu identificador de anuncios y otra información de interés a nuestros distribuidores de anuncios.\n\nSi rechazas, te mostaremos anuncios aleatorios.\n\nPuedes cambiar esta configuración en cualquier momento desde los ajustes del juego."
+    - "Если вы согласитесь, мы можем показать вам только рекламные объявления, которые вас интересуют.\n\nДля этого нам нужно отправить свой рекламный идентификатор и другую информацию, интересную нашим партнерам по рекламе.\n\nЕсли вы откажетесь, мы покажем вам случайные рекламные объявления.\n\nВы можете изменить эту конфигурацию, если хотите, из настроек игры."
+    - "如果点击接受，我们只会投放符合你兴趣的广告。\n\n为此，我们需要向广告合作伙伴发送你感兴趣的广告标识符和其他相关信息。\n\n如果点击拒绝，我们将会随机向你投放广告。\n\n你也可以根据个人需要，之后再从游戏设置中更改此配置。"
+    - "Si vous acceptez, nous pouvons vous montrer uniquement les publicités qui vous intéressent.\n\nPour cela, nous devons envoyer votre identifiant d'annonce et d'autres informations d'intérêt à nos partenaires publicitaires.\n\nSi vous refusez, nous vous montrerons des publicités aléatoires.\n\nVous pouvez modifier cette configuration lorsque vous le souhaitez à partir des paramètres du jeu."
+    - "Wenn du akzeptierst, können wir dir nur Anzeigen zeigen, die dich interessieren.\n\nDazu müssen wir deine Anzeigen-ID und andere relevante Informationen an unsere Werbepartner senden.\n\nWenn du ablehnst, zeigen wir dir zufällige Werbung.\n\nDu kannst dies von den Einstellungen des Spiels jederzeit ändern."
+    - "Se você aceitar, podemos mostrar apenas anúncios que são de seu interesse.\n\nPara isso, precisamos enviar seu identificador de anúncios e outras informações de interesse para nossos parceiros de anúncios.\n\nSe você recusar, mostraremos anúncios aleatórios.\n\nVocê pode alterar essa configuração quando quiser a partir das configurações do jogo."
+    - "Se accetti, possiamo mostrarti solo annunci che ti interessano.\n\nPer questo, abbiamo bisogno di inviare il tuo identificatore di annuncio e altre informazioni di interesse per i nostri partner pubblicitari.\n\nSe decidi, ti mostreremo annunci casuali.\n\nPuoi cambiare questa configurazione quando vuoi dalle impostazioni del gioco."
+    - "Nếu bạn chấp nhận, chúng tôi có thể chỉ hiển thị cho bạn những quảng cáo mà bạn quan tâm.\n\nĐể làm được điều đó, chúng tôi cần gửi số nhận dạng quảng cáo của bạn và các thông tin quan tâm khác cho các đối tác quảng cáo của chúng tôi.\n\nNếu bạn từ chối, chúng tôi sẽ hiển thị cho bạn các quảng cáo ngẫu nhiên.\n\nBạn có thể thay đổi cấu hình này khi bạn muốn từ các thiết lập của trò chơi."
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: accept
+    TermType: 0
+    Description:
+    Languages:
+    - Accept
+    - Aceptar
+    - принимать
+    - 接受
+    - Acceptez
+    - Akzeptieren
+    - Aceitar
+    - Accettare
+    - Chấp nhận
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: decline
+    TermType: 0
+    Description:
+    Languages:
+    - Decline
+    - Rechazar
+    - снижение
+    - 拒绝
+    - Déclin
+    - Abbrechen
+    - Recusar
+    - Declinare
+    - Từ chối
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gdpr_title
+    TermType: 0
+    Description:
+    Languages:
+    - Show personalized advertisements
+    - Mostrar anuncios personalizados
+    - Показать персонализированную рекламу
+    - 显示为用户定制的广告
+    - Afficher des publicités personnalisées
+    - Personalisierte Werbung
+    - Mostrar anúncios personalizados
+    - Mostra annunci personalizzati
+    - Hiển thị quảng cáo được cá nhân hóa
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gdpr_privacy_tip
+    TermType: 0
+    Description:
+    Languages:
+    - For more info, see privacy policy in settings
+    - Para más información, ver política de privacidad en ajustes
+    - Для получения дополнительной информации см. Политику конфиденциальности в настройках
+    - 要了解详细信息，请参阅设置中的隐私政策
+    - Pour plus d'informations, voir la politique de confidentialité dans les paramètres
+    - Weitere Informationen findest du in den Datenschutzrichtlinien in den Einstellungen
+    - Para mais informações, consulte a política de privacidade nas configurações
+    - Per maggiori informazioni, consulta la normativa sulla privacy nelle impostazioni
+    - Để biết thêm thông tin, hãy xem chính sách bảo mật trong cài đặt
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gdpr_privacy_options
+    TermType: 0
+    Description:
+    Languages:
+    - Privacy options
+    - Opciones de privacidad
+    - Конфиденциальность
+    - 隐私选项
+    - Options de confidentialité
+    - Privatsphäre-Einstellungen
+    - Opções de privacidade
+    - Opzioni sulla privacy
+    - Tùy chọn bảo mật
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: lid
+    TermType: 0
+    Description:
+    Languages:
+    - Lid
+    - Tapa
+    - покрышка
+    - 盖子
+    - Couvercle
+    - Deckel
+    - Tampa
+    - Coperchio
+    - Nắp
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: room_button_blocked
+    TermType: 0
+    Description:
+    Languages:
+    - At the moment it doesn't do anything ...
+    - De momento no hace nada...
+    - На данный момент это ничего не делает ...
+    - 目前还没有任何举动……
+    - Pour le moment, il ne fait rien ...
+    - Im Moment macht er nichts ...
+    - No momento isso não faz nada ...
+    - Al momento non fa nulla ...
+    - Hiện tại nó không làm gì cả ...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: close_question
+    TermType: 0
+    Description:
+    Languages:
+    - Are you sure you want to go back to the menu?
+    - ¿Seguro que quieres volver al menú?
+    - Вы действительно хотите вернуться в меню?
+    - 你确定要返回菜单吗？
+    - Êtes-vous sûr de vouloir revenir au menu?
+    - Möchtest du wirklich ins Menü zurückkehren ?
+    - Tem certeza de que deseja voltar ao menu?
+    - Sei sicuro di voler tornare al menu?
+    - Bạn có chắc chắn muốn quay lại menu không?
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: drawing
+    TermType: 0
+    Description:
+    Languages:
+    - Drawing
+    - Dibujo
+    - Рисование
+    - 画
+    - dessin
+    - Zeichnung
+    - desenhando
+    - disegno
+    - bản vẽ
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ghost_dif_1
+    TermType: 0
+    Description:
+    Languages:
+    - The nun can't see you
+    - La monja no te ve
+    - Монахиня не видит вас
+    - 修女看不到你
+    - La nonne ne peut pas te voir
+    - Die Nonne kann dich nicht sehen
+    - A freira não pode te ver
+    - La suora non può vederti
+    - Nữ tu không thể nhìn thấy bạn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ghost
+    TermType: 0
+    Description:
+    Languages:
+    - Ghost
+    - Fantasma
+    - призрак
+    - 鬼魂
+    - fantôme
+    - Geist
+    - fantasma
+    - fantasma
+    - ma
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: blood
+    TermType: 0
+    Description:
+    Languages:
+    - Blood
+    - Sangre
+    - кровь
+    - 显示血液
+    - du sang
+    - Blut
+    - sangue
+    - sangue
+    - máu
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: under_cloth
+    TermType: 0
+    Description:
+    Languages:
+    - Underwear
+    - Ropa interior
+    - нижнее белье
+    - 内衣
+    - Sous-vêtements
+    - Unterwäsche
+    - Roupa íntima
+    - Biancheria intima
+    - Đồ lót
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: bath_stuck
+    TermType: 0
+    Description:
+    Languages:
+    - It looks like it's stuck
+    - Parece que está atascado
+    - Похоже, он застрял
+    - 看起来像是堵住了
+    - On dirait que c'est coincé
+    - Es sieht so aus, als stecke hier etwas fest
+    - Parece que está preso
+    - Sembra che sia bloccato
+    - Có vẻ như nó bị kẹt
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: tip_headphones
+    TermType: 0
+    Description:
+    Languages:
+    - Playing with headphones improves the experience
+    - Jugar con auriculares mejora la experiencia
+    - Воспроизведение в наушниках улучшает работу
+    - 使用耳机以改善体验
+    - Jouer avec des écouteurs améliore l'expérience
+    - Spielen mit Kopfhörern verbessert das Spielerlebnis
+    - Jogando com fones de ouvido melhora a experiência
+    - Giocare con le cuffie migliora l'esperienza
+    - Chơi với tai nghe sẽ cải thiện trải nghiệm
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: toilet
+    TermType: 0
+    Description:
+    Languages:
+    - Toilet
+    - Váter
+    - Туалет
+    - 厕所
+    - Toilette
+    - Toilette
+    - Banheiro
+    - Gabinetto
+    - Nhà vệ sinh
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: denis_item
+    TermType: 0
+    Description:
+    Languages:
+    - Pinchy
+    - Pinchy
+    - Pinchy
+    - 钳子
+    - Pinchy
+    - Pinchy
+    - Pinchy
+    - Pinchy
+    - Pinchy
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: hide
+    TermType: 0
+    Description:
+    Languages:
+    - Hide
+    - Esconderse
+    - Спрятать
+    - 隐藏起来
+    - Cacher
+    - Verstecken
+    - Esconder
+    - Nascondere
+    - Ẩn giấu
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: unhide
+    TermType: 0
+    Description:
+    Languages:
+    - Unhide
+    - Salir
+    - уходить
+    - 取消隐藏
+    - Dévoiler
+    - Rausklettern
+    - sair
+    - vieni fuori
+    - Bỏ ẩn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ghost_ad_message
+    TermType: 0
+    Description:
+    Languages:
+    - An ad will be displayed in a few seconds ...
+    - Se mostrará un anuncio en unos segundos...
+    - Через несколько секунд будет отображаться объявление ...
+    - 广告将在几秒钟后显示……
+    - Une annonce sera affichée dans quelques secondes ...
+    - In wenigen Sekunden erscheint eine Werbung...
+    - Um anúncio será exibido em alguns segundos ...
+    - Un annuncio verrà visualizzato in pochi secondi ...
+    - Một quảng cáo sẽ được hiển thị sau vài giây ...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: zbingz_item
+    TermType: 0
+    Description:
+    Languages:
+    - zbing z.
+    - zbing z.
+    - zbing z.
+    - zbing z.
+    - zbing z.
+    - zbing z.
+    - zbing z.
+    - zbing z.
+    - zbing z.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: banana
+    TermType: 0
+    Description:
+    Languages:
+    - banana
+    - banana
+    - banana
+    - 香蕉
+    - banana
+    - Banane
+    - banana
+    - banana
+    - banana
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: eat
+    TermType: 0
+    Description:
+    Languages:
+    - eat
+    - comer
+    - есть
+    - 吃
+    - manger
+    - essen
+    - comer
+    - mangiare
+    - ăn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: notification_01_title
+    TermType: 0
+    Description:
+    Languages:
+    - Are you there?
+    - ¿Estás ahí?
+    - Ты там?
+    - 你在吗？
+    - Êtes-vous là?
+    - Bist du da?
+    - Você está aí?
+    - Sei qui?
+    - Bạn có ở đó không?
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: notification_01_message
+    TermType: 0
+    Description:
+    Languages:
+    - You have to see something next to your room... are you coming?
+    - Tienes algo nuevo para ver al lado de tu habitacion...¿estás viniendo?
+    - Вы должны увидеть что-то рядом с вашей комнатой ... вы идете?
+    - 你得到你隔壁的房间看样东西......你来吗？
+    - Tu dois voir quelque chose à côté de ta chambre ... tu viens?
+    - Es ist was komisches neben deinem Zimmer passiert... willst du es dir mal ansehen?
+    - Você tem que ver algo próximo ao seu quarto ... você vem?
+    - Devi vedere qualcosa vicino alla tua stanza ... vieni?
+    - Bạn phải nhìn thấy một cái gì đó bên cạnh phòng của bạn ... bạn đang đến?
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: story_7
+    TermType: 0
+    Description:
+    Languages:
+    - I think I'm the oldest of the guys here. The devil's nun has no mercy. She likes what she does and she sure enjoys humiliating us with these masks. It seems that if we wash and fold all the clothes that fall from the hole, it brings us food. Although we almost always go hungry and we have to hunt animals. Will someone come to rescue us? The boy with the dirty hands left, but he did not return ...
+    - Creo que soy el mayor de los chicos que están aquí. La monja del diablo no tiene piedad. Le gusta lo que hace y seguro que disfruta humillandonos con estas máscaras. Parece que si lavamos y doblamos toda la ropa que cae del agujero nos trae comida. Aunque casi siempre pasamos hambre y tenemos que cazar animales. ¿Alguien vendrá a rescatarnos? El niño de las manos sucias se fue, pero no volvió...
+    - Я думаю, что я самый старый из ребят здесь. У монахини дьявола нет пощады. Ей нравится то, что она делает, и она, несомненно, любит унижать нас этими масками. Кажется, что, если мы мыть и складывать всю одежду, которая выпадает из отверстия, это приносит нам пищу. Хотя мы почти всегда голодны, и нам нужно охотиться на животных. Кто-нибудь придет, чтобы нас выручить? Мальчик с грязными руками ушел, но он не вернулся ...
+    - 我似乎是这里最大的孩子。那个魔鬼的修女没有任何怜悯。她喜欢自己所做的事，并且非常享受用这些面具来折磨我们。似乎如果我们洗干净然后折好从那个洞里掉下来的衣服，就会有人给我们带来食物。虽然我们还是很饿，以至于我们不得不去狩猎其他动物。会有人来把我们救出去吗？一名做了坏事的孩子自从走了后，就再也没有回来……
+    - Je pense que je suis le plus vieux des gars ici. La nonne du diable n'a aucune pitié. Elle aime ce qu'elle fait et elle aime bien nous humilier avec ces masques. Il semble que si on lave et plie tous les vêtements qui tombent du trou, cela nous apporte de la nourriture. Bien que nous ayons presque toujours faim et que nous devons chasser les animaux. Est-ce que quelqu'un viendra nous sauver? Le garçon aux mains sales est parti, mais il n'est pas revenu ...
+    - Ich denke, ich bin der Älteste der Jungs hier. Die Nonne des Teufels hat keine Gnade. Sie mag was sie macht und sie genießt es, uns mit diesen Masken zu demütigen. Es scheint, dass wenn wir alle Kleider waschen und falten, die aus dem Loch fallen, bringt es uns Nahrung. Obwohl wir fast immer hungern müssen und wir Tiere jagen müssen. Wird jemand kommen, um uns zu retten? Der Junge mit den schmutzigen Händen ist gegangen, aber er ist nicht zurückgekehrt ...
+    - Eu acho que sou o mais velho dos caras aqui. A freira do diabo não tem misericórdia. Ela gosta do que faz e com certeza gosta de nos humilhar com essas máscaras. Parece que se lavarmos e dobrarmos todas as roupas que caem do buraco, isso nos traz comida. Embora quase sempre tenhamos fome e tenhamos que caçar animais. Alguém virá nos resgatar? O menino com as mãos sujas saiu, mas ele não voltou ...
+    - Penso di essere il più vecchio dei ragazzi qui. La suora del diavolo non ha pietà. Le piace quello che fa e sicuramente si diverte ad umiliarci con queste maschere. Sembra che se laviamo e pieghiamo tutti i vestiti che cadono dal buco, ci porta cibo. Anche se quasi sempre soffriamo la fame e dobbiamo cacciare gli animali. Qualcuno verrà a salvarci? Il ragazzo con le mani sporche se ne andò, ma non tornò ...
+    - Tôi nghĩ tôi là người già nhất ở đây. Nữ tu của quỷ dữ không thương xót. Cô ấy thích những gì cô ấy làm và cô ấy chắc chắn thích làm nhục chúng tôi với những chiếc mặt nạ này. Có vẻ như nếu chúng ta giặt và gấp tất cả quần áo rơi từ lỗ, nó sẽ mang đến cho chúng ta thức ăn. Mặc dù chúng tôi hầu như luôn luôn đói và chúng tôi phải săn bắt động vật. Có ai đến cứu chúng tôi không? Cậu bé với đôi tay bẩn thỉu rời đi, nhưng cậu ấy không quay lại ...
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cardBoardText
+    TermType: 8
+    Description:
+    Languages:
+    - DK Midnight Chalker 3D
+    - DK Midnight Chalker 3D
+    - LEngineer-Regular 3D
+    - chinese SDF 3D
+    - DK Midnight Chalker 3D
+    - DK Midnight Chalker 3D
+    - DK Midnight Chalker 3D
+    - DK Midnight Chalker 3D
+    - LEngineer-Regular 3D
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ghost_dif_2
+    TermType: 0
+    Description:
+    Languages:
+    - Ads will be shown during the game
+    - Se mostrarán anuncios durante la partida
+    - Объявления будут показаны во время игры
+    - 广告将在游戏中显示
+    - Les annonces seront diffusées pendant le jeu
+    - Anzeigen werden während des Spiels angezeigt
+    - Os anúncios serão exibidos durante o jogo
+    - Gli annunci verranno mostrati durante il gioco
+    - Quảng cáo sẽ được hiển thị trong trò chơi
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gum_ball
+    TermType: 0
+    Description:
+    Languages:
+    - Gum ball
+    - Bola de chicle
+    - Резиновый шар
+    - 口香糖球
+    - Boule de gomme
+    - Gummiball
+    - Bola de chiclete
+    - Palla di gomma
+    - Kẹo cao su bóng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gum_gun
+    TermType: 0
+    Description:
+    Languages:
+    - Gums gun
+    - Pistola de chicles
+    - Джинсовая пушка
+    - 牙龈枪
+    - Pistolet à gommes
+    - Kaugummipistole
+    - Pistola de gengivas
+    - Pistola per le gengive
+    - Súng nướu
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: drink_bottle
+    TermType: 0
+    Description:
+    Languages:
+    - Drink
+    - Refresco
+    - Напиток
+    - 喝
+    - Boisson
+    - Getränk
+    - Beber
+    - Bere
+    - Uống
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gum_bottle
+    TermType: 0
+    Description:
+    Languages:
+    - Bottle of gums
+    - Bote de chicles
+    - Бутылка десен
+    - 一瓶牙龈
+    - Bouteille de gommes
+    - Ein Behälter mit Kaugummi
+    - Garrafa de gomas
+    - Bottiglia di gomme
+    - Chai nướu
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: gun
+    TermType: 0
+    Description:
+    Languages:
+    - Gun
+    - Pistola
+    - пистолет
+    - 枪
+    - Pistolet
+    - Gewehr
+    - arma de fogo
+    - Pistola
+    - Súng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: bat_leo
+    TermType: 0
+    Description:
+    Languages:
+    - Leo Games bat
+    - Bate de Leo Games
+    - Leo Games летучая мышь
+    - Leo Games蝙蝠
+    - Leoo Games bat
+    - Leo Games bat
+    - Leo Games bat
+    - Leo Games bat
+    - Leo Games Bat
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: pomah_phone
+    TermType: 0
+    Description:
+    Languages:
+    - Pomah's smartphone
+    - Móvil de Pomah
+    - смартфон Pomah
+    - Pomah的智能手机
+    - Le smartphone de Pomah
+    - Pomahs Smartphone
+    - O smartphone de Pomah
+    - Lo smartphone di Pomah
+    - Điện thoại thông minh của Pomah
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: drinks_machine
+    TermType: 0
+    Description:
+    Languages:
+    - Drinks machine
+    - Máquina de bebidas
+    - Напитки
+    - 饮料机
+    - Distributeur de boissons
+    - Getränkeautomat
+    - Máquina de bebidas
+    - Macchina per bevande
+    - Máy đồ uống
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: coin
+    TermType: 0
+    Description:
+    Languages:
+    - Coin
+    - Moneda
+    - Монета
+    - 硬币
+    - Pièce de monnaie
+    - Münze
+    - Moeda
+    - Moneta
+    - Đồng tiền
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: use_machine_message
+    TermType: 0
+    Description:
+    Languages:
+    - You have used the coin in the drink machine
+    - Has usado la moneda en la máquina de refrescos
+    - Вы использовали монету в машине для питья
+    - 你已经在饮料机中使用了硬币
+    - Vous avez utilisé la pièce dans la machine à boissons
+    - Du hast die Münze im Getränkeautomaten benutzt
+    - Você usou a moeda na máquina de bebidas
+    - Hai usato la moneta nella macchina per bevande
+    - Bạn đã sử dụng đồng xu trong máy uống
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: try_use_machine_message
+    TermType: 0
+    Description:
+    Languages:
+    - You need a coin to use the machine
+    - Necesitas una moneda para usar la máquina
+    - Вам нужна монета для использования машины
+    - 你需要一枚硬币来使用这台机器
+    - Vous avez besoin d'une pièce pour utiliser la machine
+    - Du brauchst eine Münze, um den Automaten zu benutzen
+    - Você precisa de uma moeda para usar a máquina
+    - Hai bisogno di una moneta per usare la macchina
+    - Bạn cần một đồng xu để sử dụng máy
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: item_recipe_message
+    TermType: 0
+    Description:
+    Languages:
+    - It is a recipe for crafting something. You must place it on the elevator door
+    - Es una receta para construir algo. Debes colocarla en la puerta del montacargas
+    - Это рецепт для создания чего-то. Вы должны поместить его на дверь лифта
+    - 这是制作东西的秘诀。 你必须把它放在电梯门上
+    - C'est une recette pour fabriquer quelque chose. Vous devez le placer sur la porte de l'ascenseur
+    - Es ist ein Rezept zum Basteln von etwas. Du musst die Gegenstände in den Aufzug legen.
+    - É uma receita para criar algo. Você deve colocá-lo na porta do elevador
+    - È una ricetta per creare qualcosa. Devi metterlo sulla porta dell'ascensore
+    - Nó là một công thức để chế tạo một cái gì đó. Bạn phải đặt nó trên cửa thang máy
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: shoot
+    TermType: 0
+    Description:
+    Languages:
+    - Shoot
+    - Disparar
+    - стрелять
+    - 射击
+    - Tirer
+    - Schießen
+    - Atirar
+    - Sparare
+    - Bắn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: mask_piece
+    TermType: 0
+    Description:
+    Languages:
+    - Mask piece
+    - Pieza de máscara
+    - Маска
+    - 面膜片
+    - Pièce de masque
+    - Teil einer Maske
+    - Peça de máscara
+    - Pezzo di maschera
+    - Mặt nạ mảnh
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: charlie_pencil
+    TermType: 0
+    Description:
+    Languages:
+    - Pencil
+    - Lápiz
+    - Карандаш
+    - 铅笔
+    - Crayon
+    - Bleistift
+    - Lápis
+    - Matita
+    - Bút chì
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: devs_working
+    TermType: 0
+    Description:
+    Languages:
+    - Silence please, the developers are working
+    - Silencio por favor, los desarrolladores están trabajando
+    - Молчание, пожалуйста, разработчики работают
+    - 请沉默，开发人员正在努力
+    - Silence s'il vous plaît, les développeurs travaillent
+    - Ruhe bitte, die Entwickler arbeiten
+    - Silêncio por favor, os desenvolvedores estão trabalhando
+    - Silenzio per favore, gli sviluppatori stanno lavorando
+    - Im lặng, các nhà phát triển đang làm việc
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ask_rate_text
+    TermType: 0
+    Description:
+    Languages:
+    - You've completed the game! If you liked it and you want it to continue growing, we need your support with a good rating. We are a small team and it will mean a lot for us.
+    - ¡Te has pasado el juego!  Si te ha gustado y quieres que siga creciendo, necesitamos tu apoyo con una buena valoración. Somos un equipo pequeño y significará mucho para nosotros.
+    - Вы закончили игру! Если вам понравилось, и вы хотите, чтобы он продолжал расти, нам нужна ваша поддержка с хорошим рейтингом. Мы небольшая команда, и это будет много для нас.
+    - 你已经完成了比赛！ 如果你喜欢它并希望它继续增长，我们需要你的支持和良好的评级。 我们是一个小团队，对我们来说意义重大。
+    - Vous avez terminé le jeu! Si vous l'avez aimé et que vous souhaitez qu'il continue à croître, nous avons besoin de votre soutien avec une bonne note. Nous sommes une petite équipe et cela signifiera beaucoup pour nous.
+    - Du hast das Spiel beendet! Wenn es dir gefallen hat und du willst, dass es weiter wächst, brauchen wir deine Unterstützung mit einer guten Bewertung. Wir sind ein kleines Team und es wird uns viel bedeuten.
+    - Você completou o jogo! Se você gostou e quer continuar crescendo, precisamos do seu apoio com uma boa avaliação. Somos uma equipe pequena e isso significará muito para nós.
+    - Hai completato il gioco! Se ti è piaciuto e vuoi che continui a crescere, abbiamo bisogno del tuo supporto con una buona valutazione. Siamo una piccola squadra e significherà molto per noi.
+    - Bạn đã hoàn thành trò chơi! Nếu bạn thích nó và bạn muốn nó tiếp tục phát triển, chúng tôi cần sự hỗ trợ của bạn với một đánh giá tốt. Chúng tôi là một đội ngũ nhỏ và nó sẽ có ý nghĩa rất nhiều đối với chúng tôi.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ask_rate_title
+    TermType: 0
+    Description:
+    Languages:
+    - Congratulations!
+    - ¡Felicidades!
+    - Поздравляем!
+    - 恭喜！
+    - Toutes nos félicitations!
+    - Herzlichen Glückwunsch!
+    - Parabéns!
+    - Congratulazioni!
+    - Xin chúc mừng!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ask_rate_thanks
+    TermType: 0
+    Description:
+    Languages:
+    - Thank you very much!
+    - ¡Muchas gracias!
+    - Большое спасибо!
+    - 非常感谢你！
+    - Merci beaucoup!
+    - Vielen Dank!
+    - Muito obrigado!
+    - Grazie mille!
+    - Cảm ơn nhiều!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: ask_rate_text_2
+    TermType: 0
+    Description:
+    Languages:
+    - We will take into account your ideas and suggestions =)
+    - Tendremos en cuenta vuestras ideas y sugerencias =)
+    - Мы учтем ваши идеи и предложения =)
+    - 我们会考虑您的想法和建议=）
+    - Nous prendrons en compte vos idées et suggestions =)
+    - Wir werden eure Ideen und Vorschläge berücksichtigen =)
+    - Vamos levar em conta suas idéias e sugestões =)
+    - Prenderemo in considerazione le tue idee e i tuoi suggerimenti =)
+    - Chúng tôi sẽ tính đến ý tưởng và đề xuất của bạn =)
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: water_tap
+    TermType: 0
+    Description:
+    Languages:
+    - Water tap
+    - Llave de paso
+    - Кран для воды
+    - 水龙头
+    - Robinet
+    - Wasserhahn
+    - Torneira
+    - Rubinetto dell'acqua
+    - Vòi nước
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: extra_life_message
+    TermType: 0
+    Description:
+    Languages:
+    - You're still in time to leave school! You can continue 1 more day if you watch an advertising video.
+    - ¡Aún estás a tiempo de salir del colegio! puedes continuar 1 dia más si ves un video de publicidad.
+    - Вы еще успеваете покинуть школу! Вы можете продолжить еще 1 день, если будете смотреть рекламное видео.
+    - 你还在离开学校的时候！ 如果您观看广告视频，可以再继续一天。
+    - Tu es encore à temps pour quitter l'école! Vous pouvez continuer 1 jour de plus si vous regardez une vidéo publicitaire.
+    - Du kannst es noch schaffen, die Schule zu verlassen! Sieh dir eine Werbung an, um noch eine allerletzte Chance zu erhalten!
+    - Você ainda está na hora de sair da escola! Você pode continuar mais um dia se assistir a um vídeo de publicidade.
+    - Sei ancora in tempo per lasciare la scuola! Puoi continuare un altro giorno se guardi un video pubblicitario.
+    - Bạn vẫn còn trong thời gian để rời khỏi trường học! Bạn có thể tiếp tục thêm 1 ngày nữa nếu bạn xem video quảng cáo.
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: extra_life_title
+    TermType: 0
+    Description:
+    Languages:
+    - Another chance!
+    - ¡Otra oportunidad!
+    - Еще один шанс!
+    - 另一个机会！
+    - Une autre chance!
+    - Noch eine Chance!
+    - Outra chance!
+    - Un'altra possibilità!
+    - Một cơ hội khác!
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: extra_life_watch
+    TermType: 0
+    Description:
+    Languages:
+    - Watch video
+    - Ver video
+    - Смотреть видео
+    - 看视频
+    - Regarder la vidéo
+    - Video ansehen
+    - Assista vídeo
+    - Guarda un video
+    - Xem video
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: cory_katana
+    TermType: 0
+    Description:
+    Languages:
+    - Cory's katana
+    - Katana de Cory
+    - Катана Кори
+    - Cory武士刀
+    - Katana de Cory
+    - Corys Katana
+    - Katana de Cory
+    - La katana di Cory
+    - Katana của Cory
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: germansnake_hat
+    TermType: 0
+    Description:
+    Languages:
+    - Hat of Germansnake
+    - Gorro de Germansnake
+    - Шапка Germansnake
+    - Germansnake帽子
+    - Germansnake Cap
+    - Hut von Germansnake
+    - Chapeu de Germansnake
+    - Cappello di germansnake
+    - Mũ của Germansnake
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: credits
+    TermType: 0
+    Description:
+    Languages:
+    - Credits
+    - Creditos
+    - кредиты
+    - 积分
+    - Crédits
+    - Credits
+    - Créditos
+    - Crediti
+    - Tín dụng
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: music_by
+    TermType: 0
+    Description:
+    Languages:
+    - 'Music & Sound Design by: Serial Lab Studios'
+    - 'Musica & Diseño de sonido por: Serial Lab Studios'
+    - 'Музыка и звук Дизайн: Serial Lab Studios'
+    - 音乐与声音设计：Serial Lab Studios
+    - 'Music & Sound Design par: Serial Lab Studios'
+    - 'Musik & Sound-Design von: Serial Lab Studios'
+    - 'Música e Design de Som por: Serial Lab Studios'
+    - 'Musica e suono Design di: Serial Lab Studios'
+    - 'Thiết kế âm nhạc & âm thanh của: Serial Lab Studios'
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: voice_by
+    TermType: 0
+    Description:
+    Languages:
+    - 'Voice over by:'
+    - 'Voces por:'
+    - 'Передача голоса:'
+    - 配音：
+    - 'Voix off par:'
+    - 'Voice-over von:'
+    - 'Voz por:'
+    - 'Voice over di:'
+    - 'Lồng tiếng bởi:'
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: translations_by
+    TermType: 0
+    Description:
+    Languages:
+    - 'Translations by:'
+    - 'Traducciones por:'
+    - 'Переводы:'
+    - 翻译人：
+    - 'Traductions par:'
+    - 'Übersetzungen von:'
+    - 'Traduções por:'
+    - 'Traduzioni di:'
+    - 'Dịch bởi:'
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: developers
+    TermType: 0
+    Description:
+    Languages:
+    - Developers
+    - Desarrolladores
+    - Разработчики
+    - 开发商
+    - Développeurs
+    - Entwickler
+    - Desenvolvedores
+    - Sviluppatori
+    - Nhà phát triển
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: recipe
+    TermType: 0
+    Description:
+    Languages:
+    - Recipe
+    - Receta
+    - Рецепт
+    - 食谱
+    - Recette
+    - Rezept
+    - Receita
+    - Ricetta
+    - Công thức
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: charlie_item
+    TermType: 0
+    Description:
+    Languages:
+    - Charlie Charlie
+    - Charlie Charlie
+    - Charlie Charlie
+    - Charlie Charlie
+    - Charlie Charlie
+    - Charlie Charlie
+    - Charlie Charlie
+    - Charlie Charlie
+    - Charlie Charlie
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: mold
+    TermType: 0
+    Description:
+    Languages:
+    - Mysterious mold
+    - Molde misterioso
+    - Таинственная форма
+    - 神秘的霉菌
+    - Moule mystérieux
+    - 
+    - Molde misterioso
+    - Muffa misteriosa
+    - Khuôn bí ẩn
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: dakblake_item
+    TermType: 0
+    Description:
+    Languages:
+    - Frank the crank
+    - Frank the crank
+    - Frank the crank
+    - Frank the crank
+    - Frank the crank
+    - 
+    - Frank the crank
+    - Frank the crank
+    - Frank the crank
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: recipe_set_message
+    TermType: 0
+    Description:
+    Languages:
+    - You can now collect the necessary items
+    - Ya puedes recolectar los objetos necesarios
+    - Теперь вы можете собрать необходимые предметы
+    - 您现在可以收集必要的物品
+    - Vous pouvez maintenant collecter les éléments nécessaires
+    - 
+    - Agora você pode coletar os itens necessários
+    - Ora puoi raccogliere gli oggetti necessari
+    - Bây giờ bạn có thể thu thập các mục cần thiết
+    Flags: 000000000000000000
+    Languages_Touch: []
+  - Term: recipe_message
+    TermType: 0
+    Description:
+    Languages:
+    - It's a recipe for crafting something
+    - Es una receta para construir algo
+    - Это рецепт для создания чего-то
+    - 这是制作东西的秘诀
+    - C'est une recette pour créer quelque chose
+    - 
+    - É uma receita para criar algo
+    - È una ricetta per creare qualcosa
+    - Đó là một công thức để tạo ra thứ gì đó
+    Flags: 000000000000000000
+    Languages_Touch: []
+  CaseInsensitiveTerms: 0
+  OnMissingTranslation: 1
+  mTerm_AppName:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabAsset: 1

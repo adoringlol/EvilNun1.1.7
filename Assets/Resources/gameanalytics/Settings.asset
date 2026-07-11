@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cced7019a5f5d9570f88fdc17461e50, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier:
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea:
+  gameKey: []
+  secretKey: []
+  Build: []
+  SelectedPlatformStudio: []
+  SelectedPlatformGame: []
+  SelectedPlatformGameID:
+  SelectedStudio:
+  SelectedGame:
+  NewVersion: 5.0.4
+  Changes: "5.0.4\n- added missing playmaker actions\n\n5.0.3\n- fixed playmaker errors\n\n5.0.2\n- changed log warnings to log errors for when notifying the user about not having initialized the SDK before trying to send events"
+  SignUpOpen: 0
+  StudioName:
+  GameName:
+  EmailGA: teamkeplerians@gmail.com
+  IntroScreen: 0
+  InfoLogEditor: 0
+  InfoLogBuild: 1
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  InternetConnectivity: 0
+  CustomDimensions01: []
+  CustomDimensions02: []
+  CustomDimensions03: []
+  ResourceItemTypes: []
+  ResourceCurrencies: []
+  LastCreatedGamePlatform: -1
+  Platforms:
+  CurrentInspectorState: 1
+  ClosedHints:
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 9974136f2ee22784dbab93885f8de880, type: 3}
+  UpdateIcon: {fileID: 2800000, guid: 79a702dd04e97f14fa970d21caf616ca, type: 3}
+  InfoIcon: {fileID: 2800000, guid: 320a013752db2ec42aafa98d86d12c7f, type: 3}
+  DeleteIcon: {fileID: 2800000, guid: 7c0c86c92b9b56b4890ac48ef6b91569, type: 3}
+  GameIcon: {fileID: 2800000, guid: 5f60ef5d830e05648b16f4a416d4b098, type: 3}
+  HomeIcon: {fileID: 2800000, guid: fb1a8a20c07aea340b2cc87638c84b80, type: 3}
+  InstrumentIcon: {fileID: 2800000, guid: d019c63621a9e2449b4899211d2d967e, type: 3}
+  QuestionIcon: {fileID: 2800000, guid: 699ee519144b09f4f9cb48621bf8953c, type: 3}
+  UserIcon: {fileID: 2800000, guid: 1b239aa8687bd2543b57de489b9abf88, type: 3}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 1
+  SubmitErrors: 1
+  MaxErrorCount: 10
+  SubmitFpsAverage: 0
+  SubmitFpsCritical: 0
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut:
+  CustomDimensions01FoldOut: 0
+  CustomDimensions02FoldOut: 0
+  CustomDimensions03FoldOut: 0
+  ResourceItemTypesFoldOut: 0
+  ResourceCurrenciesFoldOut: 0
